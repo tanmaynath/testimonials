@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{% block breadcrumb %}
+  <li class="breadcrumb-item active">Posts</li>
+{% endblock %}
+
+{% block content %}
+  <body>
+    <div class = "container">
+      <ol class="breadcrumb my-4">
+        <li class="breadcrumb-item active">Say something...</li>
+      </ol>
+      <form method="post">
+        {% csrf_token %}
+        <div class="form-group">
+          <label>Your wishes</label>
+          <textarea class="form-control" name="post" rows="5"></textarea>
+        </div>
+        <div class="form-group">
+          <label>Your name</label>
+          <input type="text" class="form-control" name="name">
+        </div>
+        <button type="submit" class="btn btn-success">Post</button>
+      </form>
+    </div>
+  </body>
+{% endblock %}
