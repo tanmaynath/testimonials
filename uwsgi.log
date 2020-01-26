@@ -1,0 +1,41 @@
+*** Starting uWSGI 2.0.18 (64bit) on [Sun Jan 26 17:50:23 2020] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 10.0.1 (clang-1001.0.46.4) on 25 January 2020 21:00:23
+os: Darwin-18.7.0 Darwin Kernel Version 18.7.0: Tue Aug 20 16:57:14 PDT 2019; root:xnu-4903.271.2~2/RELEASE_X86_64
+nodename: Tanmays-MacBook-Pro-9.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /Users/tanmaynath/PycharmProjects/testimonial_website/testimonial
+writing pidfile to /tmp/testimonials.pid
+detected binary path: /Users/tanmaynath/PycharmProjects/testimonial_website/testimonial_website/bin/uwsgi
+chdir() to /Users/tanmaynath/PycharmProjects/testimonial_website/testimonial/testimonial
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /tmp/testimonial.sock fd 3
+Python version: 3.7.4 (v3.7.4:e09359112e, Jul  8 2019, 14:54:52)  [Clang 6.0 (clang-600.0.57)]
+Set PythonHome to /Users/tanmaynath/PycharmProjects/testimonial_website/testimonial_website
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7fb9a5405f50
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 801768 bytes (782 KB) for 10 cores
+*** Operational MODE: preforking ***
+ModuleNotFoundError: No module named 'testimonial'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 18555)
+spawned uWSGI worker 1 (pid: 18557, cores: 1)
+spawned uWSGI worker 2 (pid: 18558, cores: 1)
+spawned uWSGI worker 3 (pid: 18559, cores: 1)
+spawned uWSGI worker 4 (pid: 18560, cores: 1)
+spawned uWSGI worker 5 (pid: 18561, cores: 1)
+spawned uWSGI worker 6 (pid: 18562, cores: 1)
+spawned uWSGI worker 7 (pid: 18563, cores: 1)
+spawned uWSGI worker 8 (pid: 18564, cores: 1)
+spawned uWSGI worker 9 (pid: 18565, cores: 1)
+spawned uWSGI worker 10 (pid: 18566, cores: 1)
