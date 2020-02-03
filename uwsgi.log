@@ -39,3 +39,1188 @@ spawned uWSGI worker 7 (pid: 18563, cores: 1)
 spawned uWSGI worker 8 (pid: 18564, cores: 1)
 spawned uWSGI worker 9 (pid: 18565, cores: 1)
 spawned uWSGI worker 10 (pid: 18566, cores: 1)
+*** Starting uWSGI 2.0.18 (64bit) on [Sun Jan 26 18:37:04 2020] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 10.0.1 (clang-1001.0.46.4) on 25 January 2020 21:00:23
+os: Darwin-18.7.0 Darwin Kernel Version 18.7.0: Tue Aug 20 16:57:14 PDT 2019; root:xnu-4903.271.2~2/RELEASE_X86_64
+nodename: Tanmays-MacBook-Pro-9.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /Users/tanmaynath/PycharmProjects/testimonial_website/testimonial
+writing pidfile to /tmp/testimonials.pid
+detected binary path: /Users/tanmaynath/PycharmProjects/testimonial_website/testimonial_website/bin/uwsgi
+chdir() to /Users/tanmaynath/PycharmProjects/testimonial_website/testimonial/testimonial
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /tmp/testimonial.sock fd 3
+Python version: 3.7.4 (v3.7.4:e09359112e, Jul  8 2019, 14:54:52)  [Clang 6.0 (clang-600.0.57)]
+Set PythonHome to /Users/tanmaynath/PycharmProjects/testimonial_website/testimonial_website
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7f99eb6028b0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 801768 bytes (782 KB) for 10 cores
+*** Operational MODE: preforking ***
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 22394)
+spawned uWSGI worker 1 (pid: 22395, cores: 1)
+spawned uWSGI worker 2 (pid: 22396, cores: 1)
+spawned uWSGI worker 3 (pid: 22397, cores: 1)
+spawned uWSGI worker 4 (pid: 22398, cores: 1)
+spawned uWSGI worker 5 (pid: 22399, cores: 1)
+spawned uWSGI worker 6 (pid: 22400, cores: 1)
+spawned uWSGI worker 7 (pid: 22401, cores: 1)
+spawned uWSGI worker 8 (pid: 22402, cores: 1)
+spawned uWSGI worker 9 (pid: 22403, cores: 1)
+spawned uWSGI worker 10 (pid: 22404, cores: 1)
+*** Starting uWSGI 2.0.18 (64bit) on [Sun Jan 26 18:38:00 2020] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 10.0.1 (clang-1001.0.46.4) on 25 January 2020 21:00:23
+os: Darwin-18.7.0 Darwin Kernel Version 18.7.0: Tue Aug 20 16:57:14 PDT 2019; root:xnu-4903.271.2~2/RELEASE_X86_64
+nodename: Tanmays-MacBook-Pro-9.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /Users/tanmaynath/PycharmProjects/testimonial_website/testimonial
+writing pidfile to /tmp/testimonials.pid
+detected binary path: /Users/tanmaynath/PycharmProjects/testimonial_website/testimonial_website/bin/uwsgi
+chdir() to /Users/tanmaynath/PycharmProjects/testimonial_website/testimonial/testimonial
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /tmp/testimonial.sock fd 3
+Python version: 3.7.4 (v3.7.4:e09359112e, Jul  8 2019, 14:54:52)  [Clang 6.0 (clang-600.0.57)]
+Set PythonHome to /Users/tanmaynath/PycharmProjects/testimonial_website/testimonial_website
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7f89f4f02e00
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 801768 bytes (782 KB) for 10 cores
+*** Operational MODE: preforking ***
+Traceback (most recent call last):
+  File "./wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/Users/tanmaynath/PycharmProjects/testimonial_website/testimonial_website/lib/python3.7/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/Users/tanmaynath/PycharmProjects/testimonial_website/testimonial_website/lib/python3.7/site-packages/django/__init__.py", line 19, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/Users/tanmaynath/PycharmProjects/testimonial_website/testimonial_website/lib/python3.7/site-packages/django/conf/__init__.py", line 76, in __getattr__
+    self._setup(name)
+  File "/Users/tanmaynath/PycharmProjects/testimonial_website/testimonial_website/lib/python3.7/site-packages/django/conf/__init__.py", line 63, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/Users/tanmaynath/PycharmProjects/testimonial_website/testimonial_website/lib/python3.7/site-packages/django/conf/__init__.py", line 142, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/Users/tanmaynath/PycharmProjects/testimonial_website/testimonial_website/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+ModuleNotFoundError: No module named 'testimonial'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 22477)
+spawned uWSGI worker 1 (pid: 22478, cores: 1)
+spawned uWSGI worker 2 (pid: 22479, cores: 1)
+spawned uWSGI worker 3 (pid: 22480, cores: 1)
+spawned uWSGI worker 4 (pid: 22481, cores: 1)
+spawned uWSGI worker 5 (pid: 22482, cores: 1)
+spawned uWSGI worker 6 (pid: 22483, cores: 1)
+spawned uWSGI worker 7 (pid: 22485, cores: 1)
+spawned uWSGI worker 8 (pid: 22486, cores: 1)
+spawned uWSGI worker 9 (pid: 22487, cores: 1)
+spawned uWSGI worker 10 (pid: 22488, cores: 1)
+*** Starting uWSGI 2.0.18 (64bit) on [Sun Jan 26 18:41:21 2020] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 10.0.1 (clang-1001.0.46.4) on 25 January 2020 21:00:23
+os: Darwin-18.7.0 Darwin Kernel Version 18.7.0: Tue Aug 20 16:57:14 PDT 2019; root:xnu-4903.271.2~2/RELEASE_X86_64
+nodename: Tanmays-MacBook-Pro-9.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /Users/tanmaynath/PycharmProjects/testimonial_website/testimonial
+writing pidfile to /tmp/testimonials.pid
+detected binary path: /Users/tanmaynath/PycharmProjects/testimonial_website/testimonial_website/bin/uwsgi
+chdir() to /Users/tanmaynath/PycharmProjects/testimonial_website/testimonial/testimonial
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /tmp/testimonial.sock fd 3
+Python version: 3.7.4 (v3.7.4:e09359112e, Jul  8 2019, 14:54:52)  [Clang 6.0 (clang-600.0.57)]
+Set PythonHome to /Users/tanmaynath/PycharmProjects/testimonial_website/testimonial_website
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7fafa4601240
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 801768 bytes (782 KB) for 10 cores
+*** Operational MODE: preforking ***
+ModuleNotFoundError: No module named 'testimonial'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 22782)
+spawned uWSGI worker 1 (pid: 22783, cores: 1)
+spawned uWSGI worker 2 (pid: 22784, cores: 1)
+spawned uWSGI worker 3 (pid: 22785, cores: 1)
+spawned uWSGI worker 4 (pid: 22786, cores: 1)
+spawned uWSGI worker 5 (pid: 22787, cores: 1)
+spawned uWSGI worker 6 (pid: 22788, cores: 1)
+spawned uWSGI worker 7 (pid: 22789, cores: 1)
+spawned uWSGI worker 8 (pid: 22790, cores: 1)
+spawned uWSGI worker 9 (pid: 22791, cores: 1)
+spawned uWSGI worker 10 (pid: 22792, cores: 1)
+*** Starting uWSGI 2.0.18 (64bit) on [Sun Jan 26 18:44:08 2020] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 10.0.1 (clang-1001.0.46.4) on 25 January 2020 21:00:23
+os: Darwin-18.7.0 Darwin Kernel Version 18.7.0: Tue Aug 20 16:57:14 PDT 2019; root:xnu-4903.271.2~2/RELEASE_X86_64
+nodename: Tanmays-MacBook-Pro-9.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /Users/tanmaynath/PycharmProjects/testimonial_website/testimonial
+writing pidfile to /tmp/testimonials.pid
+detected binary path: /Users/tanmaynath/PycharmProjects/testimonial_website/testimonial_website/bin/uwsgi
+chdir() to /Users/tanmaynath/PycharmProjects/testimonial_website/testimonial/testimonial
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /tmp/testimonial.sock fd 3
+Python version: 3.7.4 (v3.7.4:e09359112e, Jul  8 2019, 14:54:52)  [Clang 6.0 (clang-600.0.57)]
+Set PythonHome to /Users/tanmaynath/PycharmProjects/testimonial_website/testimonial_website
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7f895cc03ac0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 801768 bytes (782 KB) for 10 cores
+*** Operational MODE: preforking ***
+ModuleNotFoundError: No module named 'testimonial'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 23046)
+spawned uWSGI worker 1 (pid: 23047, cores: 1)
+spawned uWSGI worker 2 (pid: 23048, cores: 1)
+spawned uWSGI worker 3 (pid: 23049, cores: 1)
+spawned uWSGI worker 4 (pid: 23050, cores: 1)
+spawned uWSGI worker 5 (pid: 23051, cores: 1)
+spawned uWSGI worker 6 (pid: 23052, cores: 1)
+spawned uWSGI worker 7 (pid: 23053, cores: 1)
+spawned uWSGI worker 8 (pid: 23054, cores: 1)
+spawned uWSGI worker 9 (pid: 23055, cores: 1)
+spawned uWSGI worker 10 (pid: 23056, cores: 1)
+*** Starting uWSGI 2.0.18 (64bit) on [Mon Jan 27 14:37:28 2020] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 10.0.1 (clang-1001.0.46.4) on 25 January 2020 21:00:23
+os: Darwin-18.7.0 Darwin Kernel Version 18.7.0: Tue Aug 20 16:57:14 PDT 2019; root:xnu-4903.271.2~2/RELEASE_X86_64
+nodename: Tanmays-MacBook-Pro-9.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /Users/tanmaynath/PycharmProjects/testimonial_website/testimonial
+writing pidfile to /tmp/testimonials.pid
+detected binary path: /Users/tanmaynath/PycharmProjects/testimonial_website/testimonial_website/bin/uwsgi
+chdir() to /Users/tanmaynath/PycharmProjects/testimonial_website/testimonial
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /tmp/testimonial.sock fd 3
+Python version: 3.7.4 (v3.7.4:e09359112e, Jul  8 2019, 14:54:52)  [Clang 6.0 (clang-600.0.57)]
+Set PythonHome to /Users/tanmaynath/PycharmProjects/testimonial_website/testimonial_website
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7fa433d03130
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 801768 bytes (782 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x7fa433d03130 pid: 99852 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 99852)
+spawned uWSGI worker 1 (pid: 99853, cores: 1)
+spawned uWSGI worker 2 (pid: 99854, cores: 1)
+spawned uWSGI worker 3 (pid: 99855, cores: 1)
+spawned uWSGI worker 4 (pid: 99856, cores: 1)
+spawned uWSGI worker 5 (pid: 99857, cores: 1)
+spawned uWSGI worker 6 (pid: 99858, cores: 1)
+spawned uWSGI worker 7 (pid: 99859, cores: 1)
+spawned uWSGI worker 8 (pid: 99860, cores: 1)
+spawned uWSGI worker 9 (pid: 99861, cores: 1)
+spawned uWSGI worker 10 (pid: 99862, cores: 1)
+*** Starting uWSGI 2.0.18 (64bit) on [Mon Jan 27 14:42:01 2020] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 10.0.1 (clang-1001.0.46.4) on 25 January 2020 21:00:23
+os: Darwin-18.7.0 Darwin Kernel Version 18.7.0: Tue Aug 20 16:57:14 PDT 2019; root:xnu-4903.271.2~2/RELEASE_X86_64
+nodename: Tanmays-MacBook-Pro-9.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /Users/tanmaynath/PycharmProjects/testimonial_website/testimonial
+writing pidfile to /tmp/testimonials.pid
+detected binary path: /Users/tanmaynath/PycharmProjects/testimonial_website/testimonial_website/bin/uwsgi
+chdir() to /Users/tanmaynath/PycharmProjects/testimonial_website/testimonial
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /tmp/testimonial.sock fd 3
+Python version: 3.7.4 (v3.7.4:e09359112e, Jul  8 2019, 14:54:52)  [Clang 6.0 (clang-600.0.57)]
+Set PythonHome to /Users/tanmaynath/PycharmProjects/testimonial_website/testimonial_website
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7fc6fd502780
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 801768 bytes (782 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x7fc6fd502780 pid: 474 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 474)
+spawned uWSGI worker 1 (pid: 475, cores: 1)
+spawned uWSGI worker 2 (pid: 477, cores: 1)
+spawned uWSGI worker 3 (pid: 479, cores: 1)
+spawned uWSGI worker 4 (pid: 480, cores: 1)
+spawned uWSGI worker 5 (pid: 481, cores: 1)
+spawned uWSGI worker 6 (pid: 482, cores: 1)
+spawned uWSGI worker 7 (pid: 483, cores: 1)
+spawned uWSGI worker 8 (pid: 484, cores: 1)
+spawned uWSGI worker 9 (pid: 485, cores: 1)
+spawned uWSGI worker 10 (pid: 486, cores: 1)
+*** Starting uWSGI 2.0.18 (64bit) on [Mon Jan 27 14:46:53 2020] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 10.0.1 (clang-1001.0.46.4) on 25 January 2020 21:00:23
+os: Darwin-18.7.0 Darwin Kernel Version 18.7.0: Tue Aug 20 16:57:14 PDT 2019; root:xnu-4903.271.2~2/RELEASE_X86_64
+nodename: Tanmays-MacBook-Pro-9.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /Users/tanmaynath/PycharmProjects/testimonial_website/testimonial
+writing pidfile to /tmp/testimonials.pid
+detected binary path: /Users/tanmaynath/PycharmProjects/testimonial_website/testimonial_website/bin/uwsgi
+chdir() to /Users/tanmaynath/PycharmProjects/testimonial_website/testimonial
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /tmp/testimonial.sock fd 3
+Python version: 3.7.4 (v3.7.4:e09359112e, Jul  8 2019, 14:54:52)  [Clang 6.0 (clang-600.0.57)]
+Set PythonHome to /Users/tanmaynath/PycharmProjects/testimonial_website/testimonial_website
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7fb3bf500a90
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 801768 bytes (782 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x7fb3bf500a90 pid: 1125 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 1125)
+spawned uWSGI worker 1 (pid: 1128, cores: 1)
+spawned uWSGI worker 2 (pid: 1129, cores: 1)
+spawned uWSGI worker 3 (pid: 1130, cores: 1)
+spawned uWSGI worker 4 (pid: 1131, cores: 1)
+spawned uWSGI worker 5 (pid: 1132, cores: 1)
+spawned uWSGI worker 6 (pid: 1133, cores: 1)
+spawned uWSGI worker 7 (pid: 1134, cores: 1)
+spawned uWSGI worker 8 (pid: 1135, cores: 1)
+spawned uWSGI worker 9 (pid: 1136, cores: 1)
+spawned uWSGI worker 10 (pid: 1137, cores: 1)
+*** Starting uWSGI 2.0.18 (64bit) on [Mon Jan 27 16:20:15 2020] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 10.0.1 (clang-1001.0.46.4) on 25 January 2020 21:00:23
+os: Darwin-18.7.0 Darwin Kernel Version 18.7.0: Tue Aug 20 16:57:14 PDT 2019; root:xnu-4903.271.2~2/RELEASE_X86_64
+nodename: Tanmays-MacBook-Pro-9.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /Users/tanmaynath/PycharmProjects/testimonial_website/testimonial
+writing pidfile to /tmp/testimonials.pid
+detected binary path: /Users/tanmaynath/PycharmProjects/testimonial_website/testimonial_website/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /Users/tanmaynath/PycharmProjects/testimonial_website/testimonial
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /tmp/testimonial.sock fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.4 (v3.7.4:e09359112e, Jul  8 2019, 14:54:52)  [Clang 6.0 (clang-600.0.57)]
+Set PythonHome to /Users/tanmaynath/PycharmProjects/testimonial_website/testimonial_website
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7fc5c75032e0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 801768 bytes (782 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x7fc5c75032e0 pid: 8738 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 8738)
+spawned uWSGI worker 1 (pid: 8739, cores: 1)
+spawned uWSGI worker 2 (pid: 8740, cores: 1)
+spawned uWSGI worker 3 (pid: 8741, cores: 1)
+spawned uWSGI worker 4 (pid: 8742, cores: 1)
+spawned uWSGI worker 5 (pid: 8743, cores: 1)
+spawned uWSGI worker 6 (pid: 8744, cores: 1)
+spawned uWSGI worker 7 (pid: 8745, cores: 1)
+spawned uWSGI worker 8 (pid: 8746, cores: 1)
+spawned uWSGI worker 9 (pid: 8747, cores: 1)
+spawned uWSGI worker 10 (pid: 8748, cores: 1)
+*** Starting uWSGI 2.0.18 (64bit) on [Mon Jan 27 16:24:59 2020] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 10.0.1 (clang-1001.0.46.4) on 25 January 2020 21:00:23
+os: Darwin-18.7.0 Darwin Kernel Version 18.7.0: Tue Aug 20 16:57:14 PDT 2019; root:xnu-4903.271.2~2/RELEASE_X86_64
+nodename: Tanmays-MacBook-Pro-9.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /Users/tanmaynath/PycharmProjects/testimonial_website/testimonial
+writing pidfile to /tmp/testimonials.pid
+detected binary path: /Users/tanmaynath/PycharmProjects/testimonial_website/testimonial_website/bin/uwsgi
+chdir() to /Users/tanmaynath/PycharmProjects/testimonial_website/testimonial
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+unable to find group tanmaynath
+*** Starting uWSGI 2.0.18 (64bit) on [Mon Jan 27 16:27:02 2020] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 10.0.1 (clang-1001.0.46.4) on 25 January 2020 21:00:23
+os: Darwin-18.7.0 Darwin Kernel Version 18.7.0: Tue Aug 20 16:57:14 PDT 2019; root:xnu-4903.271.2~2/RELEASE_X86_64
+nodename: Tanmays-MacBook-Pro-9.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /Users/tanmaynath/PycharmProjects/testimonial_website/testimonial
+writing pidfile to /tmp/testimonials.pid
+detected binary path: /Users/tanmaynath/PycharmProjects/testimonial_website/testimonial_website/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /Users/tanmaynath/PycharmProjects/testimonial_website/testimonial
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /tmp/testimonial.sock fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.4 (v3.7.4:e09359112e, Jul  8 2019, 14:54:52)  [Clang 6.0 (clang-600.0.57)]
+Set PythonHome to /Users/tanmaynath/PycharmProjects/testimonial_website/testimonial_website
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7ffc3bd03710
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 801768 bytes (782 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x7ffc3bd03710 pid: 9366 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 9366)
+spawned uWSGI worker 1 (pid: 9367, cores: 1)
+spawned uWSGI worker 2 (pid: 9368, cores: 1)
+spawned uWSGI worker 3 (pid: 9369, cores: 1)
+spawned uWSGI worker 4 (pid: 9370, cores: 1)
+spawned uWSGI worker 5 (pid: 9371, cores: 1)
+spawned uWSGI worker 6 (pid: 9372, cores: 1)
+spawned uWSGI worker 7 (pid: 9373, cores: 1)
+spawned uWSGI worker 8 (pid: 9374, cores: 1)
+spawned uWSGI worker 9 (pid: 9375, cores: 1)
+spawned uWSGI worker 10 (pid: 9376, cores: 1)
+[pid: 9376|app: 0|req: 1/1] 127.0.0.1 () {52 vars in 957 bytes} [Mon Jan 27 15:27:08 2020] GET / => generated 1075 bytes in 195 msecs (HTTP/1.1 200) 6 headers in 319 bytes (2 switches on core 0)
+Not Found: /favicon.ico
+[pid: 9376|app: 0|req: 2/2] 127.0.0.1 () {48 vars in 853 bytes} [Mon Jan 27 15:27:08 2020] GET /favicon.ico => generated 2519 bytes in 8 msecs (HTTP/1.1 404) 4 headers in 129 bytes (1 switches on core 0)
+[pid: 9375|app: 0|req: 1/3] 127.0.0.1 () {52 vars in 957 bytes} [Tue Jan 28 14:22:50 2020] GET / => generated 1075 bytes in 388 msecs (HTTP/1.1 200) 6 headers in 319 bytes (1 switches on core 0)
+[pid: 9375|app: 0|req: 2/4] 127.0.0.1 () {50 vars in 926 bytes} [Tue Jan 28 19:12:25 2020] GET / => generated 1075 bytes in 201 msecs (HTTP/1.1 200) 6 headers in 319 bytes (1 switches on core 0)
+[pid: 9374|app: 0|req: 1/5] 127.0.0.1 () {32 vars in 364 bytes} [Tue Jan 28 19:26:38 2020] GET / => generated 1075 bytes in 542 msecs (HTTP/1.1 200) 6 headers in 319 bytes (1 switches on core 0)
+...brutally killing workers...
+...brutally killing workers...
+...brutally killing workers...
+...brutally killing workers...
+...brutally killing workers...
+...brutally killing workers...
+...brutally killing workers...
+...brutally killing workers...
+worker 10 buried after 1 seconds
+worker 10 buried after 1 seconds
+worker 10 buried after 1 seconds
+worker 9 buried after 1 seconds
+worker 9 buried after 1 seconds
+worker 9 buried after 1 seconds
+worker 8 buried after 1 seconds
+worker 8 buried after 1 seconds
+worker 7 buried after 1 seconds
+worker 7 buried after 1 seconds
+worker 8 buried after 1 seconds
+worker 6 buried after 1 seconds
+worker 6 buried after 1 seconds
+worker 7 buried after 1 seconds
+worker 5 buried after 1 seconds
+worker 5 buried after 1 seconds
+worker 6 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 1 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+binary reloading uWSGI...
+chdir() to /Users/tanmaynath/PycharmProjects/testimonial_website/testimonial
+chdir() to /Users/tanmaynath/PycharmProjects/testimonial_website/testimonial
+closing all non-uwsgi socket fds > 2 (max_fd = 256)...
+closing all non-uwsgi socket fds > 2 (max_fd = 256)...
+found fd 3 mapped to socket 0 (/tmp/testimonial.sock)
+found fd 3 mapped to socket 0 (/tmp/testimonial.sock)
+running /Users/tanmaynath/PycharmProjects/testimonial_website/testimonial_website/bin/uwsgi
+running /Users/tanmaynath/PycharmProjects/testimonial_website/testimonial_website/bin/uwsgi
+binary reloading uWSGI...
+chdir() to /Users/tanmaynath/PycharmProjects/testimonial_website/testimonial
+closing all non-uwsgi socket fds > 2 (max_fd = 256)...
+found fd 3 mapped to socket 0 (/tmp/testimonial.sock)
+running /Users/tanmaynath/PycharmProjects/testimonial_website/testimonial_website/bin/uwsgi
+worker 10 buried after 1 seconds
+worker 9 buried after 1 seconds
+worker 8 buried after 1 seconds
+worker 7 buried after 1 seconds
+worker 6 buried after 1 seconds
+worker 5 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /Users/tanmaynath/PycharmProjects/testimonial_website/testimonial
+closing all non-uwsgi socket fds > 2 (max_fd = 256)...
+found fd 3 mapped to socket 0 (/tmp/testimonial.sock)
+running /Users/tanmaynath/PycharmProjects/testimonial_website/testimonial_website/bin/uwsgi
+realpath() of uwsgi/testimonials.ini failed: No such file or directory [core/utils.c line 3654]
+[uWSGI] getting INI configuration from testimonials.ini
+[uWSGI] getting INI configuration from testimonials.ini
+realpath() of uwsgi/testimonials.ini failed: No such file or directory [core/utils.c line 3654]
+*** Starting uWSGI 2.0.18 (64bit) on [Wed Jan 29 10:49:52 2020] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 10.0.1 (clang-1001.0.46.4) on 25 January 2020 21:00:23
+os: Darwin-18.7.0 Darwin Kernel Version 18.7.0: Tue Aug 20 16:57:14 PDT 2019; root:xnu-4903.271.2~2/RELEASE_X86_64
+nodename: Tanmays-MacBook-Pro-9.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /Users/tanmaynath/PycharmProjects/testimonial_website/testimonial
+detected binary path: /Users/tanmaynath/PycharmProjects/testimonial_website/testimonial_website/bin/uwsgi
+chdir() to /Users/tanmaynath/PycharmProjects/testimonial_website/testimonial
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+lock engine: OSX spinlocks
+*** Starting uWSGI 2.0.18 (64bit) on [Wed Jan 29 10:49:52 2020] ***
+thunder lock: disabled (you can enable it with --thunder-lock)
+compiled with version: 4.2.1 Compatible Apple LLVM 10.0.1 (clang-1001.0.46.4) on 25 January 2020 21:00:23
+os: Darwin-18.7.0 Darwin Kernel Version 18.7.0: Tue Aug 20 16:57:14 PDT 2019; root:xnu-4903.271.2~2/RELEASE_X86_64
+nodename: Tanmays-MacBook-Pro-9.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /Users/tanmaynath/PycharmProjects/testimonial_website/testimonial
+detected binary path: /Users/tanmaynath/PycharmProjects/testimonial_website/testimonial_website/bin/uwsgi
+chdir() to /Users/tanmaynath/PycharmProjects/testimonial_website/testimonial
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address /tmp/testimonial.sock fd 3
+uwsgi socket 0 inherited UNIX address /tmp/testimonial.sock fd 3
+Python version: 3.7.4 (v3.7.4:e09359112e, Jul  8 2019, 14:54:52)  [Clang 6.0 (clang-600.0.57)]
+Python version: 3.7.4 (v3.7.4:e09359112e, Jul  8 2019, 14:54:52)  [Clang 6.0 (clang-600.0.57)]
+Set PythonHome to /Users/tanmaynath/PycharmProjects/testimonial_website/testimonial_website
+Set PythonHome to /Users/tanmaynath/PycharmProjects/testimonial_website/testimonial_website
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7faa2bc0b470
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7f9dfd4034e0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 801768 bytes (782 KB) for 10 cores
+mapped 801768 bytes (782 KB) for 10 cores
+*** Operational MODE: preforking ***
+*** Operational MODE: preforking ***
+worker 9 buried after 2 seconds
+worker 6 buried after 2 seconds
+worker 4 buried after 2 seconds
+worker 3 buried after 2 seconds
+worker 2 buried after 2 seconds
+worker 1 buried after 2 seconds
+worker 10 buried after 3 seconds
+worker 9 buried after 3 seconds
+worker 8 buried after 3 seconds
+worker 7 buried after 3 seconds
+worker 10 buried after 3 seconds
+worker 6 buried after 3 seconds
+worker 10 buried after 3 seconds
+worker 8 buried after 3 seconds
+worker 9 buried after 3 seconds
+worker 7 buried after 3 seconds
+worker 5 buried after 3 seconds
+worker 5 buried after 3 seconds
+worker 4 buried after 3 seconds
+worker 8 buried after 3 seconds
+worker 3 buried after 3 seconds
+worker 2 buried after 3 seconds
+worker 1 buried after 3 seconds
+worker 7 buried after 3 seconds
+worker 10 buried after 3 seconds
+binary reloading uWSGI...
+binary reloading uWSGI...
+worker 6 buried after 3 seconds
+chdir() to /Users/tanmaynath/PycharmProjects/testimonial_website/testimonial
+worker 5 buried after 3 seconds
+worker 9 buried after 3 seconds
+worker 4 buried after 3 seconds
+worker 8 buried after 3 seconds
+worker 3 buried after 3 seconds
+worker 7 buried after 3 seconds
+chdir() to /Users/tanmaynath/PycharmProjects/testimonial_website/testimonial
+worker 6 buried after 3 seconds
+closing all non-uwsgi socket fds > 2 (max_fd = 256)...
+worker 2 buried after 3 seconds
+found fd 3 mapped to socket 0 (/tmp/testimonial.sock)
+worker 1 buried after 3 seconds
+binary reloading uWSGI...
+chdir() to /Users/tanmaynath/PycharmProjects/testimonial_website/testimonial
+closing all non-uwsgi socket fds > 2 (max_fd = 256)...
+found fd 3 mapped to socket 0 (/tmp/testimonial.sock)
+worker 5 buried after 3 seconds
+closing all non-uwsgi socket fds > 2 (max_fd = 256)...
+found fd 3 mapped to socket 0 (/tmp/testimonial.sock)
+running /Users/tanmaynath/PycharmProjects/testimonial_website/testimonial_website/bin/uwsgi
+running /Users/tanmaynath/PycharmProjects/testimonial_website/testimonial_website/bin/uwsgi
+worker 4 buried after 3 seconds
+worker 3 buried after 3 seconds
+worker 2 buried after 3 seconds
+worker 1 buried after 3 seconds
+binary reloading uWSGI...
+chdir() to /Users/tanmaynath/PycharmProjects/testimonial_website/testimonial
+closing all non-uwsgi socket fds > 2 (max_fd = 256)...
+found fd 3 mapped to socket 0 (/tmp/testimonial.sock)
+running /Users/tanmaynath/PycharmProjects/testimonial_website/testimonial_website/bin/uwsgi
+running /Users/tanmaynath/PycharmProjects/testimonial_website/testimonial_website/bin/uwsgi
+...brutally killing workers...
+...brutally killing workers...
+realpath() of uwsgi/testimonials.ini failed: No such file or directory [core/utils.c line 3654]
+[uWSGI] getting INI configuration from testimonials.ini
+[uWSGI] getting INI configuration from testimonials.ini
+*** Starting uWSGI 2.0.18 (64bit) on [Wed Jan 29 09:49:54 2020] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 10.0.1 (clang-1001.0.46.4) on 25 January 2020 21:00:23
+os: Darwin-18.7.0 Darwin Kernel Version 18.7.0: Tue Aug 20 16:57:14 PDT 2019; root:xnu-4903.271.2~2/RELEASE_X86_64
+nodename: Tanmays-MacBook-Pro-9.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /Users/tanmaynath/PycharmProjects/testimonial_website/testimonial
+detected binary path: /Users/tanmaynath/PycharmProjects/testimonial_website/testimonial_website/bin/uwsgi
+[uWSGI] getting INI configuration from testimonials.ini
+chdir() to /Users/tanmaynath/PycharmProjects/testimonial_website/testimonial
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+lock engine: OSX spinlocks
+*** Starting uWSGI 2.0.18 (64bit) on [Wed Jan 29 09:49:54 2020] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 10.0.1 (clang-1001.0.46.4) on 25 January 2020 21:00:23
+thunder lock: disabled (you can enable it with --thunder-lock)
+os: Darwin-18.7.0 Darwin Kernel Version 18.7.0: Tue Aug 20 16:57:14 PDT 2019; root:xnu-4903.271.2~2/RELEASE_X86_64
+nodename: Tanmays-MacBook-Pro-9.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /Users/tanmaynath/PycharmProjects/testimonial_website/testimonial
+detected binary path: /Users/tanmaynath/PycharmProjects/testimonial_website/testimonial_website/bin/uwsgi
+chdir() to /Users/tanmaynath/PycharmProjects/testimonial_website/testimonial
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+lock engine: OSX spinlocks
+uwsgi socket 0 inherited UNIX address /tmp/testimonial.sock fd 3
+Python version: 3.7.4 (v3.7.4:e09359112e, Jul  8 2019, 14:54:52)  [Clang 6.0 (clang-600.0.57)]
+Set PythonHome to /Users/tanmaynath/PycharmProjects/testimonial_website/testimonial_website
+thunder lock: disabled (you can enable it with --thunder-lock)
+*** Starting uWSGI 2.0.18 (64bit) on [Wed Jan 29 09:49:54 2020] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 10.0.1 (clang-1001.0.46.4) on 25 January 2020 21:00:23
+os: Darwin-18.7.0 Darwin Kernel Version 18.7.0: Tue Aug 20 16:57:14 PDT 2019; root:xnu-4903.271.2~2/RELEASE_X86_64
+nodename: Tanmays-MacBook-Pro-9.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /Users/tanmaynath/PycharmProjects/testimonial_website/testimonial
+detected binary path: /Users/tanmaynath/PycharmProjects/testimonial_website/testimonial_website/bin/uwsgi
+chdir() to /Users/tanmaynath/PycharmProjects/testimonial_website/testimonial
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address /tmp/testimonial.sock fd 3
+uwsgi socket 0 inherited UNIX address /tmp/testimonial.sock fd 3
+Python version: 3.7.4 (v3.7.4:e09359112e, Jul  8 2019, 14:54:52)  [Clang 6.0 (clang-600.0.57)]
+Python version: 3.7.4 (v3.7.4:e09359112e, Jul  8 2019, 14:54:52)  [Clang 6.0 (clang-600.0.57)]
+Set PythonHome to /Users/tanmaynath/PycharmProjects/testimonial_website/testimonial_website
+Set PythonHome to /Users/tanmaynath/PycharmProjects/testimonial_website/testimonial_website
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7fc8de702740
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7fe0b7506030
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 801768 bytes (782 KB) for 10 cores
+*** Operational MODE: preforking ***
+mapped 801768 bytes (782 KB) for 10 cores
+*** Operational MODE: preforking ***
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7fbe92e024a0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 801768 bytes (782 KB) for 10 cores
+*** Operational MODE: preforking ***
+worker 5 buried after 1 seconds
+worker 9 buried after 1 seconds
+worker 6 buried after 1 seconds
+worker 5 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 1 buried after 1 seconds
+WSGI app 0 (mountpoint='') ready in 3 seconds on interpreter 0x7faa2bc0b470 pid: 22782 (default app)
+WSGI app 0 (mountpoint='') ready in 3 seconds on interpreter 0x7f9dfd4034e0 pid: 23046 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 22782)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 23046)
+spawned uWSGI worker 1 (pid: 82747, cores: 1)
+spawned uWSGI worker 2 (pid: 82749, cores: 1)
+spawned uWSGI worker 1 (pid: 82748, cores: 1)
+spawned uWSGI worker 3 (pid: 82750, cores: 1)
+spawned uWSGI worker 2 (pid: 82751, cores: 1)
+spawned uWSGI worker 4 (pid: 82752, cores: 1)
+spawned uWSGI worker 3 (pid: 82753, cores: 1)
+spawned uWSGI worker 5 (pid: 82754, cores: 1)
+spawned uWSGI worker 4 (pid: 82755, cores: 1)
+spawned uWSGI worker 6 (pid: 82756, cores: 1)
+spawned uWSGI worker 5 (pid: 82757, cores: 1)
+spawned uWSGI worker 7 (pid: 82758, cores: 1)
+spawned uWSGI worker 6 (pid: 82759, cores: 1)
+spawned uWSGI worker 7 (pid: 82760, cores: 1)
+spawned uWSGI worker 8 (pid: 82761, cores: 1)
+spawned uWSGI worker 9 (pid: 82763, cores: 1)
+spawned uWSGI worker 10 (pid: 82764, cores: 1)
+spawned uWSGI worker 8 (pid: 82762, cores: 1)
+spawned uWSGI worker 9 (pid: 82765, cores: 1)
+spawned uWSGI worker 10 (pid: 82766, cores: 1)
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x7fe0b7506030 pid: 1125 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 1125)
+spawned uWSGI worker 1 (pid: 82767, cores: 1)
+spawned uWSGI worker 2 (pid: 82768, cores: 1)
+spawned uWSGI worker 3 (pid: 82769, cores: 1)
+spawned uWSGI worker 4 (pid: 82770, cores: 1)
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x7fbe92e024a0 pid: 474 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 474)
+spawned uWSGI worker 5 (pid: 82771, cores: 1)
+spawned uWSGI worker 6 (pid: 82773, cores: 1)
+spawned uWSGI worker 1 (pid: 82772, cores: 1)
+spawned uWSGI worker 7 (pid: 82774, cores: 1)
+spawned uWSGI worker 2 (pid: 82775, cores: 1)
+spawned uWSGI worker 3 (pid: 82777, cores: 1)
+spawned uWSGI worker 8 (pid: 82776, cores: 1)
+spawned uWSGI worker 4 (pid: 82778, cores: 1)
+spawned uWSGI worker 9 (pid: 82779, cores: 1)
+spawned uWSGI worker 5 (pid: 82780, cores: 1)
+spawned uWSGI worker 10 (pid: 82781, cores: 1)
+spawned uWSGI worker 6 (pid: 82782, cores: 1)
+spawned uWSGI worker 7 (pid: 82783, cores: 1)
+spawned uWSGI worker 8 (pid: 82784, cores: 1)
+spawned uWSGI worker 9 (pid: 82785, cores: 1)
+spawned uWSGI worker 10 (pid: 82786, cores: 1)
+WSGI app 0 (mountpoint='') ready in 2 seconds on interpreter 0x7fc8de702740 pid: 99852 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 99852)
+spawned uWSGI worker 1 (pid: 82787, cores: 1)
+spawned uWSGI worker 2 (pid: 82788, cores: 1)
+spawned uWSGI worker 3 (pid: 82789, cores: 1)
+spawned uWSGI worker 4 (pid: 82790, cores: 1)
+spawned uWSGI worker 5 (pid: 82791, cores: 1)
+spawned uWSGI worker 6 (pid: 82792, cores: 1)
+spawned uWSGI worker 7 (pid: 82793, cores: 1)
+spawned uWSGI worker 8 (pid: 82794, cores: 1)
+spawned uWSGI worker 9 (pid: 82795, cores: 1)
+spawned uWSGI worker 10 (pid: 82796, cores: 1)
+worker 10 buried after 2 seconds
+worker 9 buried after 2 seconds
+worker 8 buried after 2 seconds
+worker 7 buried after 2 seconds
+worker 6 buried after 2 seconds
+worker 4 buried after 2 seconds
+worker 3 buried after 2 seconds
+worker 2 buried after 2 seconds
+worker 1 buried after 2 seconds
+binary reloading uWSGI...
+chdir() to /Users/tanmaynath/PycharmProjects/testimonial_website/testimonial
+closing all non-uwsgi socket fds > 2 (max_fd = 256)...
+found fd 3 mapped to socket 0 (/tmp/testimonial.sock)
+running /Users/tanmaynath/PycharmProjects/testimonial_website/testimonial_website/bin/uwsgi
+[uWSGI] getting INI configuration from testimonials.ini
+*** Starting uWSGI 2.0.18 (64bit) on [Wed Jan 29 09:49:56 2020] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 10.0.1 (clang-1001.0.46.4) on 25 January 2020 21:00:23
+os: Darwin-18.7.0 Darwin Kernel Version 18.7.0: Tue Aug 20 16:57:14 PDT 2019; root:xnu-4903.271.2~2/RELEASE_X86_64
+nodename: Tanmays-MacBook-Pro-9.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /Users/tanmaynath/PycharmProjects/testimonial_website/testimonial
+detected binary path: /Users/tanmaynath/PycharmProjects/testimonial_website/testimonial_website/bin/uwsgi
+worker 10 buried after 2 seconds
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /Users/tanmaynath/PycharmProjects/testimonial_website/testimonial
+worker 8 buried after 2 seconds
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+worker 7 buried after 2 seconds
+lock engine: OSX spinlocks
+worker 3 buried after 2 seconds
+worker 2 buried after 2 seconds
+binary reloading uWSGI...
+thunder lock: disabled (you can enable it with --thunder-lock)
+chdir() to /Users/tanmaynath/PycharmProjects/testimonial_website/testimonial
+closing all non-uwsgi socket fds > 2 (max_fd = 256)...
+found fd 3 mapped to socket 0 (/tmp/testimonial.sock)
+running /Users/tanmaynath/PycharmProjects/testimonial_website/testimonial_website/bin/uwsgi
+uwsgi socket 0 inherited UNIX address /tmp/testimonial.sock fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.4 (v3.7.4:e09359112e, Jul  8 2019, 14:54:52)  [Clang 6.0 (clang-600.0.57)]
+Set PythonHome to /Users/tanmaynath/PycharmProjects/testimonial_website/testimonial_website
+[uWSGI] getting INI configuration from testimonials.ini
+*** Starting uWSGI 2.0.18 (64bit) on [Wed Jan 29 09:49:56 2020] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 10.0.1 (clang-1001.0.46.4) on 25 January 2020 21:00:23
+os: Darwin-18.7.0 Darwin Kernel Version 18.7.0: Tue Aug 20 16:57:14 PDT 2019; root:xnu-4903.271.2~2/RELEASE_X86_64
+nodename: Tanmays-MacBook-Pro-9.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /Users/tanmaynath/PycharmProjects/testimonial_website/testimonial
+detected binary path: /Users/tanmaynath/PycharmProjects/testimonial_website/testimonial_website/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /Users/tanmaynath/PycharmProjects/testimonial_website/testimonial
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address /tmp/testimonial.sock fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.4 (v3.7.4:e09359112e, Jul  8 2019, 14:54:52)  [Clang 6.0 (clang-600.0.57)]
+Set PythonHome to /Users/tanmaynath/PycharmProjects/testimonial_website/testimonial_website
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7fa593503020
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 801768 bytes (782 KB) for 10 cores
+*** Operational MODE: preforking ***
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7fa16f502c50
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 801768 bytes (782 KB) for 10 cores
+*** Operational MODE: preforking ***
+...brutally killing workers...
+...brutally killing workers...
+...brutally killing workers...
+...brutally killing workers...
+...brutally killing workers...
+worker 3 buried after 2 seconds
+WSGI app 0 (mountpoint='') ready in 2 seconds on interpreter 0x7fa593503020 pid: 9366 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 9366)
+spawned uWSGI worker 1 (pid: 82798, cores: 1)
+spawned uWSGI worker 2 (pid: 82799, cores: 1)
+spawned uWSGI worker 3 (pid: 82800, cores: 1)
+spawned uWSGI worker 4 (pid: 82801, cores: 1)
+spawned uWSGI worker 5 (pid: 82802, cores: 1)
+spawned uWSGI worker 6 (pid: 82803, cores: 1)
+spawned uWSGI worker 7 (pid: 82804, cores: 1)
+spawned uWSGI worker 8 (pid: 82805, cores: 1)
+spawned uWSGI worker 9 (pid: 82806, cores: 1)
+spawned uWSGI worker 10 (pid: 82807, cores: 1)
+WSGI app 0 (mountpoint='') ready in 2 seconds on interpreter 0x7fa16f502c50 pid: 8738 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 8738)
+spawned uWSGI worker 1 (pid: 82808, cores: 1)
+spawned uWSGI worker 2 (pid: 82809, cores: 1)
+spawned uWSGI worker 3 (pid: 82810, cores: 1)
+spawned uWSGI worker 4 (pid: 82811, cores: 1)
+spawned uWSGI worker 5 (pid: 82812, cores: 1)
+spawned uWSGI worker 6 (pid: 82813, cores: 1)
+spawned uWSGI worker 7 (pid: 82814, cores: 1)
+spawned uWSGI worker 8 (pid: 82815, cores: 1)
+spawned uWSGI worker 9 (pid: 82816, cores: 1)
+spawned uWSGI worker 10 (pid: 82817, cores: 1)
+worker 10 buried after 2 seconds
+worker 10 buried after 2 seconds
+worker 9 buried after 2 seconds
+worker 9 buried after 2 seconds
+worker 8 buried after 2 seconds
+worker 8 buried after 2 seconds
+worker 10 buried after 2 seconds
+worker 7 buried after 2 seconds
+worker 7 buried after 2 seconds
+worker 6 buried after 2 seconds
+worker 9 buried after 2 seconds
+worker 5 buried after 2 seconds
+worker 6 buried after 2 seconds
+worker 8 buried after 2 seconds
+worker 5 buried after 2 seconds
+worker 4 buried after 2 seconds
+worker 7 buried after 2 seconds
+worker 4 buried after 2 seconds
+worker 6 buried after 2 seconds
+worker 3 buried after 2 seconds
+worker 3 buried after 2 seconds
+worker 5 buried after 2 seconds
+worker 2 buried after 2 seconds
+worker 4 buried after 2 seconds
+worker 2 buried after 2 seconds
+worker 1 buried after 2 seconds
+worker 3 buried after 2 seconds
+worker 1 buried after 2 seconds
+binary reloading uWSGI...
+worker 2 buried after 2 seconds
+chdir() to /Users/tanmaynath/PycharmProjects/testimonial_website/testimonial
+binary reloading uWSGI...
+worker 1 buried after 2 seconds
+closing all non-uwsgi socket fds > 2 (max_fd = 256)...
+binary reloading uWSGI...
+found fd 3 mapped to socket 0 (/tmp/testimonial.sock)
+chdir() to /Users/tanmaynath/PycharmProjects/testimonial_website/testimonial
+chdir() to /Users/tanmaynath/PycharmProjects/testimonial_website/testimonial
+closing all non-uwsgi socket fds > 2 (max_fd = 256)...
+closing all non-uwsgi socket fds > 2 (max_fd = 256)...
+found fd 3 mapped to socket 0 (/tmp/testimonial.sock)
+found fd 3 mapped to socket 0 (/tmp/testimonial.sock)
+running /Users/tanmaynath/PycharmProjects/testimonial_website/testimonial_website/bin/uwsgi
+running /Users/tanmaynath/PycharmProjects/testimonial_website/testimonial_website/bin/uwsgi
+running /Users/tanmaynath/PycharmProjects/testimonial_website/testimonial_website/bin/uwsgi
+[uWSGI] getting INI configuration from testimonials.ini
+[uWSGI] getting INI configuration from testimonials.ini
+[uWSGI] getting INI configuration from testimonials.ini
+*** Starting uWSGI 2.0.18 (64bit) on [Wed Jan 29 09:49:58 2020] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 10.0.1 (clang-1001.0.46.4) on 25 January 2020 21:00:23
+os: Darwin-18.7.0 Darwin Kernel Version 18.7.0: Tue Aug 20 16:57:14 PDT 2019; root:xnu-4903.271.2~2/RELEASE_X86_64
+nodename: Tanmays-MacBook-Pro-9.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /Users/tanmaynath/PycharmProjects/testimonial_website/testimonial
+detected binary path: /Users/tanmaynath/PycharmProjects/testimonial_website/testimonial_website/bin/uwsgi
+*** Starting uWSGI 2.0.18 (64bit) on [Wed Jan 29 09:49:58 2020] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 10.0.1 (clang-1001.0.46.4) on 25 January 2020 21:00:23
+chdir() to /Users/tanmaynath/PycharmProjects/testimonial_website/testimonial
+os: Darwin-18.7.0 Darwin Kernel Version 18.7.0: Tue Aug 20 16:57:14 PDT 2019; root:xnu-4903.271.2~2/RELEASE_X86_64
+nodename: Tanmays-MacBook-Pro-9.local
+machine: x86_64
+your processes number limit is 709
+your memory page size is 4096 bytes
+clock source: unix
+detected max file descriptor number: 256
+pcre jit disabled
+detected number of CPU cores: 4
+lock engine: OSX spinlocks
+current working directory: /Users/tanmaynath/PycharmProjects/testimonial_website/testimonial
+detected binary path: /Users/tanmaynath/PycharmProjects/testimonial_website/testimonial_website/bin/uwsgi
+chdir() to /Users/tanmaynath/PycharmProjects/testimonial_website/testimonial
+thunder lock: disabled (you can enable it with --thunder-lock)
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+*** Starting uWSGI 2.0.18 (64bit) on [Wed Jan 29 09:49:58 2020] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 10.0.1 (clang-1001.0.46.4) on 25 January 2020 21:00:23
+uwsgi socket 0 inherited UNIX address /tmp/testimonial.sock fd 3
+os: Darwin-18.7.0 Darwin Kernel Version 18.7.0: Tue Aug 20 16:57:14 PDT 2019; root:xnu-4903.271.2~2/RELEASE_X86_64
+nodename: Tanmays-MacBook-Pro-9.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /Users/tanmaynath/PycharmProjects/testimonial_website/testimonial
+detected binary path: /Users/tanmaynath/PycharmProjects/testimonial_website/testimonial_website/bin/uwsgi
+chdir() to /Users/tanmaynath/PycharmProjects/testimonial_website/testimonial
+uwsgi socket 0 inherited UNIX address /tmp/testimonial.sock fd 3
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+Python version: 3.7.4 (v3.7.4:e09359112e, Jul  8 2019, 14:54:52)  [Clang 6.0 (clang-600.0.57)]
+Set PythonHome to /Users/tanmaynath/PycharmProjects/testimonial_website/testimonial_website
+uwsgi socket 0 inherited UNIX address /tmp/testimonial.sock fd 3
+Python version: 3.7.4 (v3.7.4:e09359112e, Jul  8 2019, 14:54:52)  [Clang 6.0 (clang-600.0.57)]
+Set PythonHome to /Users/tanmaynath/PycharmProjects/testimonial_website/testimonial_website
+Python version: 3.7.4 (v3.7.4:e09359112e, Jul  8 2019, 14:54:52)  [Clang 6.0 (clang-600.0.57)]
+Set PythonHome to /Users/tanmaynath/PycharmProjects/testimonial_website/testimonial_website
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7fe9a9e048a0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 801768 bytes (782 KB) for 10 cores
+*** Operational MODE: preforking ***
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7fa429e08620
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 801768 bytes (782 KB) for 10 cores
+*** Operational MODE: preforking ***
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7fd504e05e90
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 801768 bytes (782 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x7fa429e08620 pid: 1125 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 1125)
+spawned uWSGI worker 1 (pid: 82818, cores: 1)
+spawned uWSGI worker 2 (pid: 82819, cores: 1)
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x7fe9a9e048a0 pid: 99852 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 99852)
+spawned uWSGI worker 3 (pid: 82820, cores: 1)
+spawned uWSGI worker 4 (pid: 82822, cores: 1)
+spawned uWSGI worker 1 (pid: 82821, cores: 1)
+spawned uWSGI worker 5 (pid: 82823, cores: 1)
+spawned uWSGI worker 2 (pid: 82824, cores: 1)
+spawned uWSGI worker 6 (pid: 82825, cores: 1)
+spawned uWSGI worker 3 (pid: 82826, cores: 1)
+spawned uWSGI worker 7 (pid: 82827, cores: 1)
+spawned uWSGI worker 4 (pid: 82828, cores: 1)
+spawned uWSGI worker 8 (pid: 82829, cores: 1)
+spawned uWSGI worker 5 (pid: 82830, cores: 1)
+spawned uWSGI worker 9 (pid: 82831, cores: 1)
+spawned uWSGI worker 6 (pid: 82832, cores: 1)
+spawned uWSGI worker 10 (pid: 82833, cores: 1)
+spawned uWSGI worker 7 (pid: 82834, cores: 1)
+spawned uWSGI worker 8 (pid: 82835, cores: 1)
+spawned uWSGI worker 9 (pid: 82836, cores: 1)
+spawned uWSGI worker 10 (pid: 82837, cores: 1)
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x7fd504e05e90 pid: 474 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 474)
+spawned uWSGI worker 1 (pid: 82838, cores: 1)
+spawned uWSGI worker 2 (pid: 82839, cores: 1)
+spawned uWSGI worker 3 (pid: 82840, cores: 1)
+spawned uWSGI worker 4 (pid: 82841, cores: 1)
+spawned uWSGI worker 5 (pid: 82842, cores: 1)
+spawned uWSGI worker 6 (pid: 82843, cores: 1)
+spawned uWSGI worker 7 (pid: 82844, cores: 1)
+spawned uWSGI worker 8 (pid: 82845, cores: 1)
+spawned uWSGI worker 9 (pid: 82846, cores: 1)
+spawned uWSGI worker 10 (pid: 82847, cores: 1)
+worker 10 buried after 3 seconds
+worker 10 buried after 3 seconds
+worker 9 buried after 3 seconds
+worker 9 buried after 3 seconds
+worker 8 buried after 3 seconds
+worker 7 buried after 3 seconds
+worker 6 buried after 3 seconds
+worker 5 buried after 3 seconds
+worker 4 buried after 3 seconds
+worker 8 buried after 3 seconds
+worker 7 buried after 3 seconds
+worker 6 buried after 3 seconds
+worker 5 buried after 3 seconds
+worker 4 buried after 3 seconds
+worker 2 buried after 3 seconds
+worker 1 buried after 3 seconds
+binary reloading uWSGI...
+chdir() to /Users/tanmaynath/PycharmProjects/testimonial_website/testimonial
+closing all non-uwsgi socket fds > 2 (max_fd = 256)...
+found fd 3 mapped to socket 0 (/tmp/testimonial.sock)
+running /Users/tanmaynath/PycharmProjects/testimonial_website/testimonial_website/bin/uwsgi
+worker 3 buried after 3 seconds
+worker 2 buried after 3 seconds
+worker 1 buried after 3 seconds
+binary reloading uWSGI...
+chdir() to /Users/tanmaynath/PycharmProjects/testimonial_website/testimonial
+closing all non-uwsgi socket fds > 2 (max_fd = 256)...
+found fd 3 mapped to socket 0 (/tmp/testimonial.sock)
+running /Users/tanmaynath/PycharmProjects/testimonial_website/testimonial_website/bin/uwsgi
+[uWSGI] getting INI configuration from testimonials.ini
+*** Starting uWSGI 2.0.18 (64bit) on [Wed Jan 29 09:49:59 2020] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 10.0.1 (clang-1001.0.46.4) on 25 January 2020 21:00:23
+[uWSGI] getting INI configuration from testimonials.ini
+os: Darwin-18.7.0 Darwin Kernel Version 18.7.0: Tue Aug 20 16:57:14 PDT 2019; root:xnu-4903.271.2~2/RELEASE_X86_64
+nodename: Tanmays-MacBook-Pro-9.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /Users/tanmaynath/PycharmProjects/testimonial_website/testimonial
+detected binary path: /Users/tanmaynath/PycharmProjects/testimonial_website/testimonial_website/bin/uwsgi
+chdir() to /Users/tanmaynath/PycharmProjects/testimonial_website/testimonial
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+*** Starting uWSGI 2.0.18 (64bit) on [Wed Jan 29 09:49:59 2020] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 10.0.1 (clang-1001.0.46.4) on 25 January 2020 21:00:23
+os: Darwin-18.7.0 Darwin Kernel Version 18.7.0: Tue Aug 20 16:57:14 PDT 2019; root:xnu-4903.271.2~2/RELEASE_X86_64
+nodename: Tanmays-MacBook-Pro-9.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /Users/tanmaynath/PycharmProjects/testimonial_website/testimonial
+detected binary path: /Users/tanmaynath/PycharmProjects/testimonial_website/testimonial_website/bin/uwsgi
+chdir() to /Users/tanmaynath/PycharmProjects/testimonial_website/testimonial
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+lock engine: OSX spinlocks
+uwsgi socket 0 inherited UNIX address /tmp/testimonial.sock fd 3
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address /tmp/testimonial.sock fd 3
+Python version: 3.7.4 (v3.7.4:e09359112e, Jul  8 2019, 14:54:52)  [Clang 6.0 (clang-600.0.57)]
+Set PythonHome to /Users/tanmaynath/PycharmProjects/testimonial_website/testimonial_website
+Python version: 3.7.4 (v3.7.4:e09359112e, Jul  8 2019, 14:54:52)  [Clang 6.0 (clang-600.0.57)]
+Set PythonHome to /Users/tanmaynath/PycharmProjects/testimonial_website/testimonial_website
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7faf3860a690
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7fe716c08570
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 801768 bytes (782 KB) for 10 cores
+mapped 801768 bytes (782 KB) for 10 cores
+*** Operational MODE: preforking ***
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x7faf3860a690 pid: 22782 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 22782)
+spawned uWSGI worker 1 (pid: 82851, cores: 1)
+spawned uWSGI worker 2 (pid: 82852, cores: 1)
+spawned uWSGI worker 3 (pid: 82853, cores: 1)
+spawned uWSGI worker 4 (pid: 82854, cores: 1)
+spawned uWSGI worker 5 (pid: 82855, cores: 1)
+spawned uWSGI worker 6 (pid: 82856, cores: 1)
+spawned uWSGI worker 7 (pid: 82857, cores: 1)
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x7fe716c08570 pid: 23046 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 23046)
+spawned uWSGI worker 8 (pid: 82858, cores: 1)
+spawned uWSGI worker 9 (pid: 82860, cores: 1)
+spawned uWSGI worker 1 (pid: 82859, cores: 1)
+spawned uWSGI worker 10 (pid: 82861, cores: 1)
+spawned uWSGI worker 2 (pid: 82862, cores: 1)
+spawned uWSGI worker 3 (pid: 82863, cores: 1)
+spawned uWSGI worker 4 (pid: 82864, cores: 1)
+spawned uWSGI worker 5 (pid: 82865, cores: 1)
+spawned uWSGI worker 6 (pid: 82866, cores: 1)
+spawned uWSGI worker 7 (pid: 82867, cores: 1)
+spawned uWSGI worker 8 (pid: 82868, cores: 1)
+spawned uWSGI worker 9 (pid: 82869, cores: 1)
+spawned uWSGI worker 10 (pid: 82870, cores: 1)
+*** Starting uWSGI 2.0.18 (64bit) on [Wed Jan 29 11:26:50 2020] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 10.0.1 (clang-1001.0.46.4) on 25 January 2020 21:00:23
+os: Darwin-18.7.0 Darwin Kernel Version 18.7.0: Tue Aug 20 16:57:14 PDT 2019; root:xnu-4903.271.2~2/RELEASE_X86_64
+nodename: Tanmays-MacBook-Pro-9.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /Users/tanmaynath/PycharmProjects/testimonial_website/testimonial
+writing pidfile to /tmp/testimonials.pid
+detected binary path: /Users/tanmaynath/PycharmProjects/testimonial_website/testimonial_website/bin/uwsgi
+chdir() to /Users/tanmaynath/PycharmProjects/testimonial_website/testimonial
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+error removing unix socket, unlink(): Permission denied [core/socket.c line 198]
+bind(): Address already in use [core/socket.c line 230]
+[pid: 82805|app: 0|req: 1/1] 127.0.0.1 () {32 vars in 364 bytes} [Wed Jan 29 10:26:57 2020] GET / => generated 1075 bytes in 247 msecs (HTTP/1.1 200) 6 headers in 319 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: 'docker.for.mac.localhost:8888'. You may need to add 'docker.for.mac.localhost' to ALLOWED_HOSTS.
+Bad Request: /
+[pid: 82805|app: 0|req: 2/2] 127.0.0.1 () {32 vars in 379 bytes} [Wed Jan 29 10:28:59 2020] GET / => generated 56650 bytes in 38 msecs (HTTP/1.1 400) 2 headers in 86 bytes (9 switches on core 0)
+Invalid HTTP_HOST header: 'docker.for.mac.localhost:8888'. You may need to add 'docker.for.mac.localhost' to ALLOWED_HOSTS.
+Bad Request: /
+[pid: 82807|app: 0|req: 1/3] 127.0.0.1 () {48 vars in 852 bytes} [Wed Jan 29 10:29:27 2020] GET / => generated 58113 bytes in 116 msecs (HTTP/1.1 400) 2 headers in 86 bytes (8 switches on core 0)
+Invalid HTTP_HOST header: 'docker.for.mac.localhost:8888'. You may need to add 'docker.for.mac.localhost' to ALLOWED_HOSTS.
+Bad Request: /favicon.ico
+[pid: 82805|app: 0|req: 3/4] 127.0.0.1 () {46 vars in 794 bytes} [Wed Jan 29 10:29:28 2020] GET /favicon.ico => generated 58059 bytes in 57 msecs (HTTP/1.1 400) 2 headers in 86 bytes (6 switches on core 0)
+Invalid HTTP_HOST header: 'docker.for.mac.localhost:8888'. You may need to add 'docker.for.mac.localhost' to ALLOWED_HOSTS.
+Bad Request: /
+[pid: 82807|app: 0|req: 2/5] 127.0.0.1 () {32 vars in 379 bytes} [Wed Jan 29 10:30:17 2020] GET / => generated 56650 bytes in 67 msecs (HTTP/1.1 400) 2 headers in 86 bytes (7 switches on core 0)
+Invalid HTTP_HOST header: 'docker.for.mac.localhost:8888'. You may need to add 'docker.for.mac.localhost' to ALLOWED_HOSTS.
+Bad Request: /
+[pid: 82807|app: 0|req: 3/6] 127.0.0.1 () {50 vars in 883 bytes} [Wed Jan 29 10:30:20 2020] GET / => generated 58250 bytes in 46 msecs (HTTP/1.1 400) 2 headers in 86 bytes (9 switches on core 0)
+Invalid HTTP_HOST header: 'docker.for.mac.localhost:8888'. You may need to add 'docker.for.mac.localhost' to ALLOWED_HOSTS.
+Bad Request: /favicon.ico
+[pid: 82807|app: 0|req: 4/7] 127.0.0.1 () {46 vars in 794 bytes} [Wed Jan 29 10:30:21 2020] GET /favicon.ico => generated 58059 bytes in 53 msecs (HTTP/1.1 400) 2 headers in 86 bytes (9 switches on core 0)
+[pid: 82807|app: 0|req: 5/8] 127.0.0.1 () {50 vars in 926 bytes} [Wed Jan 29 10:30:45 2020] GET / => generated 1075 bytes in 200 msecs (HTTP/1.1 200) 6 headers in 319 bytes (1 switches on core 0)
+...brutally killing workers...
+...brutally killing workers...
+...brutally killing workers...
+...brutally killing workers...
+...brutally killing workers...
+...brutally killing workers...
+...brutally killing workers...

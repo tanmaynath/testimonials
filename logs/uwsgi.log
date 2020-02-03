@@ -1,0 +1,1903 @@
+*** Starting uWSGI 2.0.18 (64bit) on [Wed Jan 29 14:11:59 2020] ***
+compiled with version: 8.3.0 on 28 January 2020 18:54:30
+os: Linux-4.19.76-linuxkit #1 SMP Thu Oct 17 19:31:58 UTC 2019
+nodename: fb515fc8dfe5
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /testimonial-app
+writing pidfile to /tmp/uwsgi-testimonials.pid
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /testimonial-app/testimonial
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /tmp/testimonial.sock fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** starting uWSGI Emperor ***
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.8.1 (default, Jan  3 2020, 22:44:00)  [GCC 8.3.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x55d175ed5610
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 802120 bytes (783 KB) for 10 cores
+*** Operational MODE: preforking ***
+ModuleNotFoundError: No module named 'testimonial'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 1)
+spawned uWSGI worker 1 (pid: 7, cores: 1)
+spawned uWSGI worker 2 (pid: 8, cores: 1)
+spawned uWSGI worker 3 (pid: 9, cores: 1)
+spawned uWSGI worker 4 (pid: 10, cores: 1)
+spawned uWSGI worker 5 (pid: 11, cores: 1)
+spawned uWSGI worker 6 (pid: 12, cores: 1)
+spawned uWSGI worker 7 (pid: 13, cores: 1)
+spawned uWSGI worker 8 (pid: 14, cores: 1)
+spawned uWSGI worker 9 (pid: 15, cores: 1)
+spawned uWSGI worker 10 (pid: 16, cores: 1)
+[emperor] *** RAGNAROK EVOKED ***
+waiting for Emperor death...
+Wed Jan 29 14:15:20 2020 - The Emperor is buried.
+The Emperor has been buried (pid: 6)
+...brutally killing workers...
+worker 1 buried after 0 seconds
+worker 3 buried after 0 seconds
+worker 2 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+worker 6 buried after 1 seconds
+worker 7 buried after 1 seconds
+worker 8 buried after 1 seconds
+worker 9 buried after 1 seconds
+worker 10 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /testimonial-app
+closing all non-uwsgi socket fds > 2 (max_fd = 1048576)...
+found fd 3 mapped to socket 0 (/tmp/testimonial.sock)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi/uwsgi_docker.ini
+*** Starting uWSGI 2.0.18 (64bit) on [Wed Jan 29 14:15:22 2020] ***
+compiled with version: 8.3.0 on 28 January 2020 18:54:30
+os: Linux-4.19.76-linuxkit #1 SMP Thu Oct 17 19:31:58 UTC 2019
+nodename: fb515fc8dfe5
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /testimonial-app
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /testimonial-app/testimonial
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+*** starting uWSGI Emperor ***
+uwsgi socket 0 inherited UNIX address /tmp/testimonial.sock fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.8.1 (default, Jan  3 2020, 22:44:00)  [GCC 8.3.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x5608920075b0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 802120 bytes (783 KB) for 10 cores
+*** Operational MODE: preforking ***
+ModuleNotFoundError: No module named 'testimonial'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 1)
+spawned uWSGI worker 1 (pid: 28, cores: 1)
+spawned uWSGI worker 2 (pid: 29, cores: 1)
+spawned uWSGI worker 3 (pid: 30, cores: 1)
+spawned uWSGI worker 4 (pid: 31, cores: 1)
+spawned uWSGI worker 5 (pid: 32, cores: 1)
+spawned uWSGI worker 6 (pid: 33, cores: 1)
+spawned uWSGI worker 7 (pid: 34, cores: 1)
+spawned uWSGI worker 8 (pid: 35, cores: 1)
+spawned uWSGI worker 9 (pid: 36, cores: 1)
+spawned uWSGI worker 10 (pid: 37, cores: 1)
+*** Starting uWSGI 2.0.18 (64bit) on [Wed Jan 29 14:16:50 2020] ***
+compiled with version: 8.3.0 on 28 January 2020 18:54:30
+os: Linux-4.19.76-linuxkit #1 SMP Thu Oct 17 19:31:58 UTC 2019
+nodename: a8bcac249a8b
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /testimonial-app
+writing pidfile to /tmp/uwsgi-testimonials.pid
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /testimonial-app/testimonial
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /tmp/testimonial.sock fd 3
+*** starting uWSGI Emperor ***
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.8.1 (default, Jan  3 2020, 22:44:00)  [GCC 8.3.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x5589b386b610
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 802120 bytes (783 KB) for 10 cores
+*** Operational MODE: preforking ***
+ModuleNotFoundError: No module named 'testimonial'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 1)
+spawned uWSGI worker 1 (pid: 7, cores: 1)
+spawned uWSGI worker 2 (pid: 8, cores: 1)
+spawned uWSGI worker 3 (pid: 9, cores: 1)
+spawned uWSGI worker 4 (pid: 10, cores: 1)
+spawned uWSGI worker 5 (pid: 11, cores: 1)
+spawned uWSGI worker 6 (pid: 12, cores: 1)
+spawned uWSGI worker 7 (pid: 13, cores: 1)
+spawned uWSGI worker 8 (pid: 14, cores: 1)
+spawned uWSGI worker 9 (pid: 15, cores: 1)
+spawned uWSGI worker 10 (pid: 16, cores: 1)
+waiting for Emperor death...
+[emperor] *** RAGNAROK EVOKED ***
+Wed Jan 29 14:20:05 2020 - The Emperor is buried.
+The Emperor has been buried (pid: 6)
+...brutally killing workers...
+worker 1 buried after 2 seconds
+worker 2 buried after 2 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+worker 6 buried after 1 seconds
+worker 7 buried after 1 seconds
+worker 8 buried after 1 seconds
+worker 9 buried after 1 seconds
+worker 10 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /testimonial-app
+closing all non-uwsgi socket fds > 2 (max_fd = 1048576)...
+found fd 3 mapped to socket 0 (/tmp/testimonial.sock)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi/uwsgi_docker.ini
+*** Starting uWSGI 2.0.18 (64bit) on [Wed Jan 29 14:20:08 2020] ***
+compiled with version: 8.3.0 on 28 January 2020 18:54:30
+os: Linux-4.19.76-linuxkit #1 SMP Thu Oct 17 19:31:58 UTC 2019
+nodename: a8bcac249a8b
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /testimonial-app
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /testimonial-app
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+*** starting uWSGI Emperor ***
+uwsgi socket 0 inherited UNIX address /tmp/testimonial.sock fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.8.1 (default, Jan  3 2020, 22:44:00)  [GCC 8.3.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x55fad704e370
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 802120 bytes (783 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x55fad704e370 pid: 1 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 1)
+spawned uWSGI worker 1 (pid: 27, cores: 1)
+spawned uWSGI worker 2 (pid: 28, cores: 1)
+spawned uWSGI worker 3 (pid: 29, cores: 1)
+spawned uWSGI worker 4 (pid: 30, cores: 1)
+spawned uWSGI worker 5 (pid: 31, cores: 1)
+spawned uWSGI worker 6 (pid: 32, cores: 1)
+spawned uWSGI worker 7 (pid: 33, cores: 1)
+spawned uWSGI worker 8 (pid: 34, cores: 1)
+spawned uWSGI worker 9 (pid: 35, cores: 1)
+spawned uWSGI worker 10 (pid: 36, cores: 1)
+*** Starting uWSGI 2.0.18 (64bit) on [Wed Jan 29 14:21:29 2020] ***
+compiled with version: 8.3.0 on 28 January 2020 18:54:30
+os: Linux-4.19.76-linuxkit #1 SMP Thu Oct 17 19:31:58 UTC 2019
+nodename: 6491ad090ef9
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /testimonial-app
+writing pidfile to /tmp/uwsgi-testimonials.pid
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /testimonial-app
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /tmp/testimonial.sock fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** starting uWSGI Emperor ***
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.8.1 (default, Jan  3 2020, 22:44:00)  [GCC 8.3.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x560faa5b03d0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 802120 bytes (783 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x560faa5b03d0 pid: 1 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 1)
+spawned uWSGI worker 1 (pid: 8, cores: 1)
+spawned uWSGI worker 2 (pid: 9, cores: 1)
+spawned uWSGI worker 3 (pid: 10, cores: 1)
+spawned uWSGI worker 4 (pid: 11, cores: 1)
+spawned uWSGI worker 5 (pid: 12, cores: 1)
+spawned uWSGI worker 6 (pid: 13, cores: 1)
+spawned uWSGI worker 7 (pid: 14, cores: 1)
+spawned uWSGI worker 8 (pid: 15, cores: 1)
+spawned uWSGI worker 9 (pid: 16, cores: 1)
+spawned uWSGI worker 10 (pid: 17, cores: 1)
+[emperor] *** RAGNAROK EVOKED ***
+waiting for Emperor death...
+Wed Jan 29 14:35:16 2020 - The Emperor is buried.
+The Emperor has been buried (pid: 6)
+...brutally killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+worker 6 buried after 1 seconds
+worker 7 buried after 1 seconds
+worker 8 buried after 1 seconds
+worker 9 buried after 1 seconds
+worker 10 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /testimonial-app
+closing all non-uwsgi socket fds > 2 (max_fd = 1048576)...
+found fd 3 mapped to socket 0 (/tmp/testimonial.sock)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi/uwsgi_docker.ini
+*** Starting uWSGI 2.0.18 (64bit) on [Wed Jan 29 14:35:19 2020] ***
+compiled with version: 8.3.0 on 28 January 2020 18:54:30
+os: Linux-4.19.76-linuxkit #1 SMP Thu Oct 17 19:31:58 UTC 2019
+nodename: 6491ad090ef9
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /testimonial-app
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /testimonial-app
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+*** starting uWSGI Emperor ***
+uwsgi socket 0 inherited UNIX address /tmp/testimonial.sock fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.8.1 (default, Jan  3 2020, 22:44:00)  [GCC 8.3.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x55bd8270c3e0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 802120 bytes (783 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x55bd8270c3e0 pid: 1 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 1)
+spawned uWSGI worker 1 (pid: 40, cores: 1)
+spawned uWSGI worker 2 (pid: 41, cores: 1)
+spawned uWSGI worker 3 (pid: 42, cores: 1)
+spawned uWSGI worker 4 (pid: 43, cores: 1)
+spawned uWSGI worker 5 (pid: 44, cores: 1)
+spawned uWSGI worker 6 (pid: 45, cores: 1)
+spawned uWSGI worker 7 (pid: 46, cores: 1)
+spawned uWSGI worker 8 (pid: 47, cores: 1)
+spawned uWSGI worker 9 (pid: 48, cores: 1)
+spawned uWSGI worker 10 (pid: 49, cores: 1)
+*** Starting uWSGI 2.0.18 (64bit) on [Wed Jan 29 14:35:28 2020] ***
+compiled with version: 8.3.0 on 28 January 2020 18:54:30
+os: Linux-4.19.76-linuxkit #1 SMP Thu Oct 17 19:31:58 UTC 2019
+nodename: ce9ed59b5181
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /testimonial-app
+writing pidfile to /tmp/uwsgi-testimonials.pid
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /testimonial-app
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /tmp/testimonial.sock fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.8.1 (default, Jan  3 2020, 22:44:00)  [GCC 8.3.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x55d4d4feb370
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 802120 bytes (783 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 2 seconds on interpreter 0x55d4d4feb370 pid: 1 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 1)
+spawned uWSGI worker 1 (pid: 8, cores: 1)
+spawned uWSGI worker 2 (pid: 9, cores: 1)
+spawned uWSGI worker 3 (pid: 10, cores: 1)
+spawned uWSGI worker 4 (pid: 11, cores: 1)
+spawned uWSGI worker 5 (pid: 12, cores: 1)
+spawned uWSGI worker 6 (pid: 13, cores: 1)
+spawned uWSGI worker 7 (pid: 14, cores: 1)
+spawned uWSGI worker 8 (pid: 15, cores: 1)
+spawned uWSGI worker 9 (pid: 16, cores: 1)
+spawned uWSGI worker 10 (pid: 17, cores: 1)
+...brutally killing workers...
+worker 1 buried after 2 seconds
+worker 2 buried after 2 seconds
+worker 3 buried after 2 seconds
+worker 4 buried after 2 seconds
+worker 5 buried after 2 seconds
+worker 6 buried after 2 seconds
+worker 7 buried after 2 seconds
+worker 8 buried after 2 seconds
+worker 9 buried after 1 seconds
+worker 10 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /testimonial-app
+closing all non-uwsgi socket fds > 2 (max_fd = 1048576)...
+found fd 3 mapped to socket 0 (/tmp/testimonial.sock)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi/uwsgi_docker.ini
+*** Starting uWSGI 2.0.18 (64bit) on [Wed Jan 29 14:37:42 2020] ***
+compiled with version: 8.3.0 on 28 January 2020 18:54:30
+os: Linux-4.19.76-linuxkit #1 SMP Thu Oct 17 19:31:58 UTC 2019
+nodename: ce9ed59b5181
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /testimonial-app
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /testimonial-app
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address /tmp/testimonial.sock fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.8.1 (default, Jan  3 2020, 22:44:00)  [GCC 8.3.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x55877f928380
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 802120 bytes (783 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x55877f928380 pid: 1 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 1)
+spawned uWSGI worker 1 (pid: 19, cores: 1)
+spawned uWSGI worker 2 (pid: 20, cores: 1)
+spawned uWSGI worker 3 (pid: 21, cores: 1)
+spawned uWSGI worker 4 (pid: 22, cores: 1)
+spawned uWSGI worker 5 (pid: 23, cores: 1)
+spawned uWSGI worker 6 (pid: 24, cores: 1)
+spawned uWSGI worker 7 (pid: 25, cores: 1)
+spawned uWSGI worker 8 (pid: 26, cores: 1)
+spawned uWSGI worker 9 (pid: 27, cores: 1)
+spawned uWSGI worker 10 (pid: 28, cores: 1)
+*** Starting uWSGI 2.0.18 (64bit) on [Wed Jan 29 14:38:04 2020] ***
+compiled with version: 8.3.0 on 28 January 2020 18:54:30
+os: Linux-4.19.76-linuxkit #1 SMP Thu Oct 17 19:31:58 UTC 2019
+nodename: ce9ed59b5181
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /testimonial-app
+writing pidfile to /tmp/uwsgi-testimonials.pid
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /testimonial-app
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /tmp/testimonial.sock fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.8.1 (default, Jan  3 2020, 22:44:00)  [GCC 8.3.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x55b964405370
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 802120 bytes (783 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x55b964405370 pid: 1 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 1)
+spawned uWSGI worker 1 (pid: 7, cores: 1)
+spawned uWSGI worker 2 (pid: 8, cores: 1)
+spawned uWSGI worker 3 (pid: 9, cores: 1)
+spawned uWSGI worker 4 (pid: 10, cores: 1)
+spawned uWSGI worker 5 (pid: 11, cores: 1)
+spawned uWSGI worker 6 (pid: 12, cores: 1)
+spawned uWSGI worker 7 (pid: 13, cores: 1)
+spawned uWSGI worker 8 (pid: 14, cores: 1)
+spawned uWSGI worker 9 (pid: 15, cores: 1)
+spawned uWSGI worker 10 (pid: 16, cores: 1)
+...brutally killing workers...
+worker 6 buried after 1 seconds
+worker 1 buried after 2 seconds
+worker 2 buried after 2 seconds
+worker 3 buried after 2 seconds
+worker 4 buried after 2 seconds
+worker 5 buried after 2 seconds
+worker 7 buried after 2 seconds
+worker 8 buried after 2 seconds
+worker 9 buried after 2 seconds
+worker 10 buried after 2 seconds
+binary reloading uWSGI...
+chdir() to /testimonial-app
+closing all non-uwsgi socket fds > 2 (max_fd = 1048576)...
+found fd 3 mapped to socket 0 (/tmp/testimonial.sock)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi/uwsgi_docker.ini
+*** Starting uWSGI 2.0.18 (64bit) on [Wed Jan 29 14:51:31 2020] ***
+compiled with version: 8.3.0 on 28 January 2020 18:54:30
+os: Linux-4.19.76-linuxkit #1 SMP Thu Oct 17 19:31:58 UTC 2019
+nodename: ce9ed59b5181
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /testimonial-app
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /testimonial-app
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address /tmp/testimonial.sock fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.8.1 (default, Jan  3 2020, 22:44:00)  [GCC 8.3.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x560fd02b6380
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 802120 bytes (783 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x560fd02b6380 pid: 1 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 1)
+spawned uWSGI worker 1 (pid: 36, cores: 1)
+spawned uWSGI worker 2 (pid: 37, cores: 1)
+spawned uWSGI worker 3 (pid: 38, cores: 1)
+spawned uWSGI worker 4 (pid: 39, cores: 1)
+spawned uWSGI worker 5 (pid: 40, cores: 1)
+spawned uWSGI worker 6 (pid: 41, cores: 1)
+spawned uWSGI worker 7 (pid: 42, cores: 1)
+spawned uWSGI worker 8 (pid: 43, cores: 1)
+spawned uWSGI worker 9 (pid: 44, cores: 1)
+spawned uWSGI worker 10 (pid: 45, cores: 1)
+*** Starting uWSGI 2.0.18 (64bit) on [Wed Jan 29 14:51:55 2020] ***
+compiled with version: 8.3.0 on 28 January 2020 18:54:30
+os: Linux-4.19.76-linuxkit #1 SMP Thu Oct 17 19:31:58 UTC 2019
+nodename: ce9ed59b5181
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /testimonial-app
+writing pidfile to /tmp/uwsgi-testimonials.pid
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /testimonial-app
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /tmp/testimonial.sock fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.8.1 (default, Jan  3 2020, 22:44:00)  [GCC 8.3.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x55e789fd0370
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 802120 bytes (783 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 2 seconds on interpreter 0x55e789fd0370 pid: 1 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 1)
+spawned uWSGI worker 1 (pid: 7, cores: 1)
+spawned uWSGI worker 2 (pid: 8, cores: 1)
+spawned uWSGI worker 3 (pid: 9, cores: 1)
+spawned uWSGI worker 4 (pid: 10, cores: 1)
+spawned uWSGI worker 5 (pid: 11, cores: 1)
+spawned uWSGI worker 6 (pid: 12, cores: 1)
+spawned uWSGI worker 7 (pid: 13, cores: 1)
+spawned uWSGI worker 8 (pid: 14, cores: 1)
+spawned uWSGI worker 9 (pid: 15, cores: 1)
+spawned uWSGI worker 10 (pid: 16, cores: 1)
+...brutally killing workers...
+worker 1 buried after 2 seconds
+worker 2 buried after 2 seconds
+worker 3 buried after 2 seconds
+worker 4 buried after 2 seconds
+worker 5 buried after 2 seconds
+worker 6 buried after 2 seconds
+worker 7 buried after 2 seconds
+worker 8 buried after 2 seconds
+worker 9 buried after 2 seconds
+worker 10 buried after 2 seconds
+binary reloading uWSGI...
+chdir() to /testimonial-app
+closing all non-uwsgi socket fds > 2 (max_fd = 1048576)...
+found fd 3 mapped to socket 0 (/tmp/testimonial.sock)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi/uwsgi_docker.ini
+*** Starting uWSGI 2.0.18 (64bit) on [Wed Jan 29 14:54:57 2020] ***
+compiled with version: 8.3.0 on 28 January 2020 18:54:30
+os: Linux-4.19.76-linuxkit #1 SMP Thu Oct 17 19:31:58 UTC 2019
+nodename: ce9ed59b5181
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /testimonial-app
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /testimonial-app
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /run/testimonial.sock fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.8.1 (default, Jan  3 2020, 22:44:00)  [GCC 8.3.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x55ac6b558380
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 802120 bytes (783 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x55ac6b558380 pid: 1 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 1)
+spawned uWSGI worker 1 (pid: 29, cores: 1)
+spawned uWSGI worker 2 (pid: 30, cores: 1)
+spawned uWSGI worker 3 (pid: 31, cores: 1)
+spawned uWSGI worker 4 (pid: 32, cores: 1)
+spawned uWSGI worker 5 (pid: 33, cores: 1)
+spawned uWSGI worker 6 (pid: 34, cores: 1)
+spawned uWSGI worker 7 (pid: 35, cores: 1)
+spawned uWSGI worker 8 (pid: 36, cores: 1)
+spawned uWSGI worker 9 (pid: 37, cores: 1)
+spawned uWSGI worker 10 (pid: 38, cores: 1)
+Wed Jan 29 14:55:05 2020 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.18 (64bit) on [Wed Jan 29 14:55:25 2020] ***
+compiled with version: 8.3.0 on 28 January 2020 18:54:30
+os: Linux-4.19.76-linuxkit #1 SMP Thu Oct 17 19:31:58 UTC 2019
+nodename: ce9ed59b5181
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /testimonial-app
+writing pidfile to /tmp/uwsgi-testimonials.pid
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /testimonial-app
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /run/testimonial.sock fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.8.1 (default, Jan  3 2020, 22:44:00)  [GCC 8.3.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x556ff7246370
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 802120 bytes (783 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x556ff7246370 pid: 1 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 1)
+spawned uWSGI worker 1 (pid: 11, cores: 1)
+spawned uWSGI worker 2 (pid: 12, cores: 1)
+spawned uWSGI worker 3 (pid: 13, cores: 1)
+spawned uWSGI worker 4 (pid: 14, cores: 1)
+spawned uWSGI worker 5 (pid: 15, cores: 1)
+spawned uWSGI worker 6 (pid: 16, cores: 1)
+spawned uWSGI worker 7 (pid: 17, cores: 1)
+spawned uWSGI worker 8 (pid: 18, cores: 1)
+spawned uWSGI worker 9 (pid: 19, cores: 1)
+spawned uWSGI worker 10 (pid: 20, cores: 1)
+...brutally killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+worker 6 buried after 1 seconds
+worker 7 buried after 1 seconds
+worker 8 buried after 1 seconds
+worker 9 buried after 1 seconds
+worker 10 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /testimonial-app
+closing all non-uwsgi socket fds > 2 (max_fd = 1048576)...
+found fd 3 mapped to socket 0 (/run/testimonial.sock)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi/uwsgi_docker.ini
+*** Starting uWSGI 2.0.18 (64bit) on [Wed Jan 29 14:55:42 2020] ***
+compiled with version: 8.3.0 on 28 January 2020 18:54:30
+os: Linux-4.19.76-linuxkit #1 SMP Thu Oct 17 19:31:58 UTC 2019
+nodename: ce9ed59b5181
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /testimonial-app
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /testimonial-app
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address /run/testimonial.sock fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.8.1 (default, Jan  3 2020, 22:44:00)  [GCC 8.3.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x557e380d3380
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 802120 bytes (783 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x557e380d3380 pid: 1 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 1)
+spawned uWSGI worker 1 (pid: 22, cores: 1)
+spawned uWSGI worker 2 (pid: 23, cores: 1)
+spawned uWSGI worker 3 (pid: 24, cores: 1)
+spawned uWSGI worker 4 (pid: 25, cores: 1)
+spawned uWSGI worker 5 (pid: 26, cores: 1)
+spawned uWSGI worker 6 (pid: 27, cores: 1)
+spawned uWSGI worker 7 (pid: 28, cores: 1)
+spawned uWSGI worker 8 (pid: 29, cores: 1)
+spawned uWSGI worker 9 (pid: 30, cores: 1)
+spawned uWSGI worker 10 (pid: 31, cores: 1)
+*** Starting uWSGI 2.0.18 (64bit) on [Wed Jan 29 14:56:48 2020] ***
+compiled with version: 8.3.0 on 28 January 2020 18:54:30
+os: Linux-4.19.76-linuxkit #1 SMP Thu Oct 17 19:31:58 UTC 2019
+nodename: 74eff273dc26
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /testimonial-app
+writing pidfile to /tmp/uwsgi-testimonials.pid
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /testimonial-app
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /run/testimonial.sock fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.8.1 (default, Jan  3 2020, 22:44:00)  [GCC 8.3.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x5562f564d370
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 802120 bytes (783 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 2 seconds on interpreter 0x5562f564d370 pid: 1 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 1)
+spawned uWSGI worker 1 (pid: 7, cores: 1)
+spawned uWSGI worker 2 (pid: 8, cores: 1)
+spawned uWSGI worker 3 (pid: 9, cores: 1)
+spawned uWSGI worker 4 (pid: 10, cores: 1)
+spawned uWSGI worker 5 (pid: 11, cores: 1)
+spawned uWSGI worker 6 (pid: 12, cores: 1)
+spawned uWSGI worker 7 (pid: 13, cores: 1)
+spawned uWSGI worker 8 (pid: 14, cores: 1)
+spawned uWSGI worker 9 (pid: 15, cores: 1)
+spawned uWSGI worker 10 (pid: 16, cores: 1)
+...brutally killing workers...
+worker 3 buried after 1 seconds
+worker 1 buried after 2 seconds
+worker 2 buried after 2 seconds
+worker 4 buried after 2 seconds
+worker 5 buried after 2 seconds
+worker 6 buried after 2 seconds
+worker 7 buried after 2 seconds
+worker 8 buried after 2 seconds
+worker 9 buried after 2 seconds
+worker 10 buried after 2 seconds
+binary reloading uWSGI...
+chdir() to /testimonial-app
+closing all non-uwsgi socket fds > 2 (max_fd = 1048576)...
+found fd 3 mapped to socket 0 (/run/testimonial.sock)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi/uwsgi_docker.ini
+*** Starting uWSGI 2.0.18 (64bit) on [Wed Jan 29 14:59:19 2020] ***
+compiled with version: 8.3.0 on 28 January 2020 18:54:30
+os: Linux-4.19.76-linuxkit #1 SMP Thu Oct 17 19:31:58 UTC 2019
+nodename: 74eff273dc26
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /testimonial-app
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /testimonial-app
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address /run/testimonial.sock fd 3
+*** Starting uWSGI 2.0.18 (64bit) on [Wed Jan 29 15:00:16 2020] ***
+compiled with version: 8.3.0 on 28 January 2020 18:54:30
+os: Linux-4.19.76-linuxkit #1 SMP Thu Oct 17 19:31:58 UTC 2019
+nodename: 74eff273dc26
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /testimonial-app
+writing pidfile to /tmp/uwsgi-testimonials.pid
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /testimonial-app
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /run/testimonial.sock fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.8.1 (default, Jan  3 2020, 22:44:00)  [GCC 8.3.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x564c0199a370
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 802120 bytes (783 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 4 seconds on interpreter 0x564c0199a370 pid: 1 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 1)
+spawned uWSGI worker 1 (pid: 7, cores: 1)
+spawned uWSGI worker 2 (pid: 8, cores: 1)
+spawned uWSGI worker 3 (pid: 9, cores: 1)
+spawned uWSGI worker 4 (pid: 10, cores: 1)
+spawned uWSGI worker 5 (pid: 11, cores: 1)
+spawned uWSGI worker 6 (pid: 12, cores: 1)
+spawned uWSGI worker 7 (pid: 13, cores: 1)
+spawned uWSGI worker 8 (pid: 14, cores: 1)
+spawned uWSGI worker 9 (pid: 15, cores: 1)
+spawned uWSGI worker 10 (pid: 16, cores: 1)
+...brutally killing workers...
+worker 1 buried after 3 seconds
+worker 2 buried after 3 seconds
+worker 3 buried after 3 seconds
+worker 4 buried after 3 seconds
+worker 5 buried after 3 seconds
+worker 6 buried after 3 seconds
+worker 7 buried after 3 seconds
+worker 8 buried after 3 seconds
+worker 9 buried after 3 seconds
+worker 10 buried after 3 seconds
+binary reloading uWSGI...
+chdir() to /testimonial-app
+closing all non-uwsgi socket fds > 2 (max_fd = 1048576)...
+found fd 3 mapped to socket 0 (/run/testimonial.sock)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi/uwsgi_docker.ini
+*** Starting uWSGI 2.0.18 (64bit) on [Wed Jan 29 15:02:15 2020] ***
+compiled with version: 8.3.0 on 28 January 2020 18:54:30
+os: Linux-4.19.76-linuxkit #1 SMP Thu Oct 17 19:31:58 UTC 2019
+nodename: 74eff273dc26
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /testimonial-app
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /testimonial-app
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address /run/testimonial.sock fd 3
+*** Starting uWSGI 2.0.18 (64bit) on [Wed Jan 29 15:02:32 2020] ***
+compiled with version: 8.3.0 on 28 January 2020 18:54:30
+os: Linux-4.19.76-linuxkit #1 SMP Thu Oct 17 19:31:58 UTC 2019
+nodename: 74eff273dc26
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /testimonial-app
+writing pidfile to /tmp/uwsgi-testimonials.pid
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /testimonial-app
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /run/testimonial.sock fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.8.1 (default, Jan  3 2020, 22:44:00)  [GCC 8.3.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x555b28c66370
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 802120 bytes (783 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 4 seconds on interpreter 0x555b28c66370 pid: 1 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 1)
+spawned uWSGI worker 1 (pid: 7, cores: 1)
+spawned uWSGI worker 2 (pid: 8, cores: 1)
+spawned uWSGI worker 3 (pid: 9, cores: 1)
+spawned uWSGI worker 4 (pid: 10, cores: 1)
+spawned uWSGI worker 5 (pid: 11, cores: 1)
+spawned uWSGI worker 6 (pid: 12, cores: 1)
+spawned uWSGI worker 7 (pid: 13, cores: 1)
+spawned uWSGI worker 8 (pid: 14, cores: 1)
+spawned uWSGI worker 9 (pid: 15, cores: 1)
+spawned uWSGI worker 10 (pid: 16, cores: 1)
+...brutally killing workers...
+worker 1 buried after 5 seconds
+worker 2 buried after 5 seconds
+worker 3 buried after 5 seconds
+worker 4 buried after 5 seconds
+worker 5 buried after 5 seconds
+worker 6 buried after 5 seconds
+worker 7 buried after 5 seconds
+worker 8 buried after 5 seconds
+worker 9 buried after 5 seconds
+worker 10 buried after 5 seconds
+binary reloading uWSGI...
+chdir() to /testimonial-app
+closing all non-uwsgi socket fds > 2 (max_fd = 1048576)...
+found fd 3 mapped to socket 0 (/run/testimonial.sock)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi/uwsgi_docker.ini
+*** Starting uWSGI 2.0.18 (64bit) on [Wed Jan 29 15:04:39 2020] ***
+compiled with version: 8.3.0 on 28 January 2020 18:54:30
+os: Linux-4.19.76-linuxkit #1 SMP Thu Oct 17 19:31:58 UTC 2019
+nodename: 74eff273dc26
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /testimonial-app
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /testimonial-app
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address /run/testimonial.sock fd 3
+*** Starting uWSGI 2.0.18 (64bit) on [Wed Jan 29 15:04:57 2020] ***
+compiled with version: 8.3.0 on 28 January 2020 18:54:30
+os: Linux-4.19.76-linuxkit #1 SMP Thu Oct 17 19:31:58 UTC 2019
+nodename: 74eff273dc26
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /testimonial-app
+writing pidfile to /tmp/uwsgi-testimonials.pid
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /testimonial-app
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /run/testimonial.sock fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.8.1 (default, Jan  3 2020, 22:44:00)  [GCC 8.3.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x55ecd3290370
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 802120 bytes (783 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 5 seconds on interpreter 0x55ecd3290370 pid: 1 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 1)
+spawned uWSGI worker 1 (pid: 7, cores: 1)
+spawned uWSGI worker 2 (pid: 8, cores: 1)
+spawned uWSGI worker 3 (pid: 9, cores: 1)
+spawned uWSGI worker 4 (pid: 10, cores: 1)
+spawned uWSGI worker 5 (pid: 11, cores: 1)
+spawned uWSGI worker 6 (pid: 12, cores: 1)
+spawned uWSGI worker 7 (pid: 13, cores: 1)
+spawned uWSGI worker 8 (pid: 14, cores: 1)
+spawned uWSGI worker 9 (pid: 15, cores: 1)
+spawned uWSGI worker 10 (pid: 16, cores: 1)
+...brutally killing workers...
+worker 3 buried after 3 seconds
+worker 4 buried after 3 seconds
+worker 5 buried after 3 seconds
+worker 6 buried after 3 seconds
+worker 8 buried after 3 seconds
+worker 10 buried after 3 seconds
+worker 1 buried after 4 seconds
+worker 2 buried after 4 seconds
+worker 7 buried after 4 seconds
+worker 9 buried after 4 seconds
+binary reloading uWSGI...
+chdir() to /testimonial-app
+closing all non-uwsgi socket fds > 2 (max_fd = 1048576)...
+found fd 3 mapped to socket 0 (/run/testimonial.sock)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi/uwsgi_docker.ini
+*** Starting uWSGI 2.0.18 (64bit) on [Wed Jan 29 15:05:18 2020] ***
+compiled with version: 8.3.0 on 28 January 2020 18:54:30
+os: Linux-4.19.76-linuxkit #1 SMP Thu Oct 17 19:31:58 UTC 2019
+nodename: 74eff273dc26
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /testimonial-app
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /testimonial-app
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address /run/testimonial.sock fd 3
+*** Starting uWSGI 2.0.18 (64bit) on [Wed Jan 29 15:05:32 2020] ***
+compiled with version: 8.3.0 on 28 January 2020 18:54:30
+os: Linux-4.19.76-linuxkit #1 SMP Thu Oct 17 19:31:58 UTC 2019
+nodename: 74eff273dc26
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /testimonial-app
+writing pidfile to /tmp/uwsgi-testimonials.pid
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /testimonial-app
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /run/testimonial.sock fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.8.1 (default, Jan  3 2020, 22:44:00)  [GCC 8.3.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x555708353370
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 802120 bytes (783 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 3 seconds on interpreter 0x555708353370 pid: 1 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 1)
+spawned uWSGI worker 1 (pid: 9, cores: 1)
+spawned uWSGI worker 2 (pid: 10, cores: 1)
+spawned uWSGI worker 3 (pid: 11, cores: 1)
+spawned uWSGI worker 4 (pid: 12, cores: 1)
+spawned uWSGI worker 5 (pid: 13, cores: 1)
+spawned uWSGI worker 6 (pid: 14, cores: 1)
+spawned uWSGI worker 7 (pid: 15, cores: 1)
+spawned uWSGI worker 8 (pid: 16, cores: 1)
+spawned uWSGI worker 9 (pid: 17, cores: 1)
+spawned uWSGI worker 10 (pid: 18, cores: 1)
+...brutally killing workers...
+worker 10 buried after 2 seconds
+worker 1 buried after 3 seconds
+worker 2 buried after 3 seconds
+worker 3 buried after 3 seconds
+worker 4 buried after 3 seconds
+worker 5 buried after 3 seconds
+worker 6 buried after 3 seconds
+worker 7 buried after 3 seconds
+worker 8 buried after 3 seconds
+worker 9 buried after 3 seconds
+binary reloading uWSGI...
+chdir() to /testimonial-app
+closing all non-uwsgi socket fds > 2 (max_fd = 1048576)...
+found fd 3 mapped to socket 0 (/run/testimonial.sock)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi/uwsgi_docker.ini
+*** Starting uWSGI 2.0.18 (64bit) on [Wed Jan 29 15:08:02 2020] ***
+compiled with version: 8.3.0 on 28 January 2020 18:54:30
+os: Linux-4.19.76-linuxkit #1 SMP Thu Oct 17 19:31:58 UTC 2019
+nodename: 74eff273dc26
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /testimonial-app
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /testimonial-app
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address /run/testimonial.sock fd 3
+*** Starting uWSGI 2.0.18 (64bit) on [Wed Jan 29 15:08:38 2020] ***
+compiled with version: 8.3.0 on 28 January 2020 18:54:30
+os: Linux-4.19.76-linuxkit #1 SMP Thu Oct 17 19:31:58 UTC 2019
+nodename: 79768ac5007d
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /testimonial-app
+writing pidfile to /tmp/uwsgi-testimonials.pid
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /testimonial-app
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /run/testimonial.sock fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.8.1 (default, Jan  3 2020, 22:44:00)  [GCC 8.3.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x558fd3deb370
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 802120 bytes (783 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 5 seconds on interpreter 0x558fd3deb370 pid: 1 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 1)
+spawned uWSGI worker 1 (pid: 7, cores: 1)
+spawned uWSGI worker 2 (pid: 8, cores: 1)
+spawned uWSGI worker 3 (pid: 9, cores: 1)
+spawned uWSGI worker 4 (pid: 10, cores: 1)
+spawned uWSGI worker 5 (pid: 11, cores: 1)
+spawned uWSGI worker 6 (pid: 12, cores: 1)
+spawned uWSGI worker 7 (pid: 13, cores: 1)
+spawned uWSGI worker 8 (pid: 14, cores: 1)
+spawned uWSGI worker 9 (pid: 15, cores: 1)
+spawned uWSGI worker 10 (pid: 16, cores: 1)
+*** Starting uWSGI 2.0.18 (64bit) on [Thu Jan 30 10:21:23 2020] ***
+compiled with version: 8.3.0 on 28 January 2020 18:54:30
+os: Linux-4.19.76-linuxkit #1 SMP Thu Oct 17 19:31:58 UTC 2019
+nodename: 79768ac5007d
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /testimonial-app
+writing pidfile to /tmp/uwsgi-testimonials.pid
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /testimonial-app
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /run/testimonial.sock fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.8.1 (default, Jan  3 2020, 22:44:00)  [GCC 8.3.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x55c05d2f1370
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 802120 bytes (783 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x55c05d2f1370 pid: 1 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 1)
+spawned uWSGI worker 1 (pid: 7, cores: 1)
+spawned uWSGI worker 2 (pid: 8, cores: 1)
+spawned uWSGI worker 3 (pid: 9, cores: 1)
+spawned uWSGI worker 4 (pid: 10, cores: 1)
+spawned uWSGI worker 5 (pid: 11, cores: 1)
+spawned uWSGI worker 6 (pid: 12, cores: 1)
+spawned uWSGI worker 7 (pid: 13, cores: 1)
+spawned uWSGI worker 8 (pid: 14, cores: 1)
+spawned uWSGI worker 9 (pid: 15, cores: 1)
+spawned uWSGI worker 10 (pid: 16, cores: 1)
+...brutally killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+worker 6 buried after 1 seconds
+worker 7 buried after 1 seconds
+worker 8 buried after 1 seconds
+worker 9 buried after 1 seconds
+worker 10 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /testimonial-app
+closing all non-uwsgi socket fds > 2 (max_fd = 1048576)...
+found fd 3 mapped to socket 0 (/run/testimonial.sock)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi/uwsgi_docker.ini
+*** Starting uWSGI 2.0.18 (64bit) on [Thu Jan 30 10:26:35 2020] ***
+compiled with version: 8.3.0 on 28 January 2020 18:54:30
+os: Linux-4.19.76-linuxkit #1 SMP Thu Oct 17 19:31:58 UTC 2019
+nodename: 79768ac5007d
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /testimonial-app
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /testimonial-app
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address /run/testimonial.sock fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.8.1 (default, Jan  3 2020, 22:44:00)  [GCC 8.3.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x556c8ea0e380
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 802120 bytes (783 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x556c8ea0e380 pid: 1 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 1)
+spawned uWSGI worker 1 (pid: 33, cores: 1)
+spawned uWSGI worker 2 (pid: 34, cores: 1)
+spawned uWSGI worker 3 (pid: 35, cores: 1)
+spawned uWSGI worker 4 (pid: 36, cores: 1)
+spawned uWSGI worker 5 (pid: 37, cores: 1)
+spawned uWSGI worker 6 (pid: 38, cores: 1)
+spawned uWSGI worker 7 (pid: 39, cores: 1)
+spawned uWSGI worker 8 (pid: 40, cores: 1)
+spawned uWSGI worker 9 (pid: 41, cores: 1)
+spawned uWSGI worker 10 (pid: 42, cores: 1)
+...brutally killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+worker 6 buried after 1 seconds
+worker 7 buried after 1 seconds
+worker 8 buried after 1 seconds
+worker 9 buried after 1 seconds
+worker 10 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /testimonial-app
+closing all non-uwsgi socket fds > 2 (max_fd = 1048576)...
+found fd 3 mapped to socket 0 (/run/testimonial.sock)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi/uwsgi_docker.ini
+*** Starting uWSGI 2.0.18 (64bit) on [Thu Jan 30 10:27:45 2020] ***
+compiled with version: 8.3.0 on 28 January 2020 18:54:30
+os: Linux-4.19.76-linuxkit #1 SMP Thu Oct 17 19:31:58 UTC 2019
+nodename: 79768ac5007d
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /testimonial-app
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /testimonial-app
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address /run/testimonial.sock fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.8.1 (default, Jan  3 2020, 22:44:00)  [GCC 8.3.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x560d9c45d380
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 802120 bytes (783 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x560d9c45d380 pid: 1 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 1)
+spawned uWSGI worker 1 (pid: 44, cores: 1)
+spawned uWSGI worker 2 (pid: 45, cores: 1)
+spawned uWSGI worker 3 (pid: 46, cores: 1)
+spawned uWSGI worker 4 (pid: 47, cores: 1)
+spawned uWSGI worker 5 (pid: 48, cores: 1)
+spawned uWSGI worker 6 (pid: 49, cores: 1)
+spawned uWSGI worker 7 (pid: 50, cores: 1)
+spawned uWSGI worker 8 (pid: 51, cores: 1)
+spawned uWSGI worker 9 (pid: 52, cores: 1)
+spawned uWSGI worker 10 (pid: 53, cores: 1)
+*** Starting uWSGI 2.0.18 (64bit) on [Thu Jan 30 10:29:51 2020] ***
+compiled with version: 8.3.0 on 28 January 2020 18:54:30
+os: Linux-4.19.76-linuxkit #1 SMP Thu Oct 17 19:31:58 UTC 2019
+nodename: 80012d7a126f
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /testimonial-app
+writing pidfile to /tmp/uwsgi-testimonials.pid
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /testimonial-app
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.8.1 (default, Jan  3 2020, 22:44:00)  [GCC 8.3.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x558773228410
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+The -s/--socket option is missing and stdin is not a socket.
+VACUUM: pidfile removed.
+*** Starting uWSGI 2.0.18 (64bit) on [Thu Jan 30 10:33:03 2020] ***
+compiled with version: 8.3.0 on 28 January 2020 18:54:30
+os: Linux-4.19.76-linuxkit #1 SMP Thu Oct 17 19:31:58 UTC 2019
+nodename: 80012d7a126f
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /testimonial-app
+writing pidfile to /tmp/uwsgi-testimonials.pid
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /testimonial-app
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.8.1 (default, Jan  3 2020, 22:44:00)  [GCC 8.3.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x55fa607c8410
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+The -s/--socket option is missing and stdin is not a socket.
+VACUUM: pidfile removed.
+*** Starting uWSGI 2.0.18 (64bit) on [Thu Jan 30 10:36:11 2020] ***
+compiled with version: 8.3.0 on 28 January 2020 18:54:30
+os: Linux-4.19.76-linuxkit #1 SMP Thu Oct 17 19:31:58 UTC 2019
+nodename: 80012d7a126f
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /testimonial-app
+writing pidfile to /tmp/uwsgi-testimonials.pid
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /testimonial-app
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.8.1 (default, Jan  3 2020, 22:44:00)  [GCC 8.3.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x565396baf410
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+The -s/--socket option is missing and stdin is not a socket.
+VACUUM: pidfile removed.
+*** Starting uWSGI 2.0.18 (64bit) on [Thu Jan 30 10:36:31 2020] ***
+compiled with version: 8.3.0 on 28 January 2020 18:54:30
+os: Linux-4.19.76-linuxkit #1 SMP Thu Oct 17 19:31:58 UTC 2019
+nodename: 80012d7a126f
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /testimonial-app
+writing pidfile to /tmp/uwsgi-testimonials.pid
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /testimonial-app
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.8.1 (default, Jan  3 2020, 22:44:00)  [GCC 8.3.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x557a18cff410
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+The -s/--socket option is missing and stdin is not a socket.
+VACUUM: pidfile removed.
+*** Starting uWSGI 2.0.18 (64bit) on [Thu Jan 30 10:37:53 2020] ***
+compiled with version: 8.3.0 on 28 January 2020 18:54:30
+os: Linux-4.19.76-linuxkit #1 SMP Thu Oct 17 19:31:58 UTC 2019
+nodename: 43b418c3a371
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /testimonial-app
+writing pidfile to /tmp/uwsgi-testimonials.pid
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /testimonial-app
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.8.1 (default, Jan  3 2020, 22:44:00)  [GCC 8.3.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x559d1c2f7410
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+The -s/--socket option is missing and stdin is not a socket.
+VACUUM: pidfile removed.
+*** Starting uWSGI 2.0.18 (64bit) on [Thu Jan 30 10:40:58 2020] ***
+compiled with version: 8.3.0 on 28 January 2020 18:54:30
+os: Linux-4.19.76-linuxkit #1 SMP Thu Oct 17 19:31:58 UTC 2019
+nodename: 719eb23f2e7e
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /testimonial-app
+writing pidfile to /tmp/uwsgi-testimonials.pid
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /testimonial-app
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /run/testimonial.sock fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.8.1 (default, Jan  3 2020, 22:44:00)  [GCC 8.3.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x5585dc306370
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 802120 bytes (783 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x5585dc306370 pid: 1 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 1)
+spawned uWSGI worker 1 (pid: 8, cores: 1)
+spawned uWSGI worker 2 (pid: 9, cores: 1)
+spawned uWSGI worker 3 (pid: 10, cores: 1)
+spawned uWSGI worker 4 (pid: 11, cores: 1)
+spawned uWSGI worker 5 (pid: 12, cores: 1)
+spawned uWSGI worker 6 (pid: 13, cores: 1)
+spawned uWSGI worker 7 (pid: 14, cores: 1)
+spawned uWSGI worker 8 (pid: 15, cores: 1)
+spawned uWSGI worker 9 (pid: 16, cores: 1)
+spawned uWSGI worker 10 (pid: 17, cores: 1)
+...brutally killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+worker 6 buried after 1 seconds
+worker 7 buried after 1 seconds
+worker 8 buried after 1 seconds
+worker 9 buried after 1 seconds
+worker 10 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /testimonial-app
+closing all non-uwsgi socket fds > 2 (max_fd = 1048576)...
+found fd 3 mapped to socket 0 (/run/testimonial.sock)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi/uwsgi_docker.ini
+*** Starting uWSGI 2.0.18 (64bit) on [Thu Jan 30 10:41:19 2020] ***
+compiled with version: 8.3.0 on 28 January 2020 18:54:30
+os: Linux-4.19.76-linuxkit #1 SMP Thu Oct 17 19:31:58 UTC 2019
+nodename: 719eb23f2e7e
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /testimonial-app
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /testimonial-app
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address /run/testimonial.sock fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.8.1 (default, Jan  3 2020, 22:44:00)  [GCC 8.3.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x5630a7da6380
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 802120 bytes (783 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x5630a7da6380 pid: 1 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 1)
+spawned uWSGI worker 1 (pid: 19, cores: 1)
+spawned uWSGI worker 2 (pid: 20, cores: 1)
+spawned uWSGI worker 3 (pid: 21, cores: 1)
+spawned uWSGI worker 4 (pid: 22, cores: 1)
+spawned uWSGI worker 5 (pid: 23, cores: 1)
+spawned uWSGI worker 6 (pid: 24, cores: 1)
+spawned uWSGI worker 7 (pid: 25, cores: 1)
+spawned uWSGI worker 8 (pid: 26, cores: 1)
+spawned uWSGI worker 9 (pid: 27, cores: 1)
+spawned uWSGI worker 10 (pid: 28, cores: 1)
+*** Starting uWSGI 2.0.18 (64bit) on [Thu Jan 30 10:41:51 2020] ***
+compiled with version: 8.3.0 on 28 January 2020 18:54:30
+os: Linux-4.19.76-linuxkit #1 SMP Thu Oct 17 19:31:58 UTC 2019
+nodename: fe133eda2edb
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /testimonial-app
+writing pidfile to /tmp/uwsgi-testimonials.pid
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /testimonial-app
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /run/testimonial.sock fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.8.1 (default, Jan  3 2020, 22:44:00)  [GCC 8.3.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x563647044370
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 802120 bytes (783 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x563647044370 pid: 1 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 1)
+spawned uWSGI worker 1 (pid: 7, cores: 1)
+spawned uWSGI worker 2 (pid: 8, cores: 1)
+spawned uWSGI worker 3 (pid: 9, cores: 1)
+spawned uWSGI worker 4 (pid: 10, cores: 1)
+spawned uWSGI worker 5 (pid: 11, cores: 1)
+spawned uWSGI worker 6 (pid: 12, cores: 1)
+spawned uWSGI worker 7 (pid: 13, cores: 1)
+spawned uWSGI worker 8 (pid: 14, cores: 1)
+spawned uWSGI worker 9 (pid: 15, cores: 1)
+spawned uWSGI worker 10 (pid: 16, cores: 1)
+...brutally killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+worker 6 buried after 1 seconds
+worker 7 buried after 1 seconds
+worker 8 buried after 1 seconds
+worker 9 buried after 1 seconds
+worker 10 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /testimonial-app
+closing all non-uwsgi socket fds > 2 (max_fd = 1048576)...
+found fd 3 mapped to socket 0 (/run/testimonial.sock)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi/uwsgi_docker.ini
+*** Starting uWSGI 2.0.18 (64bit) on [Thu Jan 30 11:02:00 2020] ***
+compiled with version: 8.3.0 on 28 January 2020 18:54:30
+os: Linux-4.19.76-linuxkit #1 SMP Thu Oct 17 19:31:58 UTC 2019
+nodename: fe133eda2edb
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /testimonial-app
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /testimonial-app
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address /run/testimonial.sock fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.8.1 (default, Jan  3 2020, 22:44:00)  [GCC 8.3.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x563c5154b380
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 802120 bytes (783 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x563c5154b380 pid: 1 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 1)
+spawned uWSGI worker 1 (pid: 32, cores: 1)
+spawned uWSGI worker 2 (pid: 33, cores: 1)
+spawned uWSGI worker 3 (pid: 34, cores: 1)
+spawned uWSGI worker 4 (pid: 35, cores: 1)
+spawned uWSGI worker 5 (pid: 36, cores: 1)
+spawned uWSGI worker 6 (pid: 37, cores: 1)
+spawned uWSGI worker 7 (pid: 38, cores: 1)
+spawned uWSGI worker 8 (pid: 39, cores: 1)
+spawned uWSGI worker 9 (pid: 40, cores: 1)
+spawned uWSGI worker 10 (pid: 41, cores: 1)
+*** Starting uWSGI 2.0.18 (64bit) on [Thu Jan 30 11:06:54 2020] ***
+compiled with version: 8.3.0 on 28 January 2020 18:54:30
+os: Linux-4.19.76-linuxkit #1 SMP Thu Oct 17 19:31:58 UTC 2019
+nodename: 1be60cd82fc7
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /testimonial-app
+writing pidfile to /tmp/uwsgi-testimonials.pid
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /testimonial-app
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /run/testimonial.sock fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.8.1 (default, Jan  3 2020, 22:44:00)  [GCC 8.3.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x5584fa6f4370
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 802120 bytes (783 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x5584fa6f4370 pid: 1 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 1)
+spawned uWSGI worker 1 (pid: 7, cores: 1)
+spawned uWSGI worker 2 (pid: 8, cores: 1)
+spawned uWSGI worker 3 (pid: 9, cores: 1)
+spawned uWSGI worker 4 (pid: 10, cores: 1)
+spawned uWSGI worker 5 (pid: 11, cores: 1)
+spawned uWSGI worker 6 (pid: 12, cores: 1)
+spawned uWSGI worker 7 (pid: 13, cores: 1)
+spawned uWSGI worker 8 (pid: 14, cores: 1)
+spawned uWSGI worker 9 (pid: 15, cores: 1)
+spawned uWSGI worker 10 (pid: 16, cores: 1)
+...brutally killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+worker 6 buried after 1 seconds
+worker 7 buried after 1 seconds
+worker 8 buried after 1 seconds
+worker 9 buried after 1 seconds
+worker 10 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /testimonial-app
+closing all non-uwsgi socket fds > 2 (max_fd = 1048576)...
+found fd 3 mapped to socket 0 (/run/testimonial.sock)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi/uwsgi_docker.ini
+*** Starting uWSGI 2.0.18 (64bit) on [Thu Jan 30 11:07:22 2020] ***
+compiled with version: 8.3.0 on 28 January 2020 18:54:30
+os: Linux-4.19.76-linuxkit #1 SMP Thu Oct 17 19:31:58 UTC 2019
+nodename: 1be60cd82fc7
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /testimonial-app
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /testimonial-app
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address /run/testimonial.sock fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.8.1 (default, Jan  3 2020, 22:44:00)  [GCC 8.3.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x55f89c5fa380
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 802120 bytes (783 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x55f89c5fa380 pid: 1 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 1)
+spawned uWSGI worker 1 (pid: 18, cores: 1)
+spawned uWSGI worker 2 (pid: 19, cores: 1)
+spawned uWSGI worker 3 (pid: 20, cores: 1)
+spawned uWSGI worker 4 (pid: 21, cores: 1)
+spawned uWSGI worker 5 (pid: 22, cores: 1)
+spawned uWSGI worker 6 (pid: 23, cores: 1)
+spawned uWSGI worker 7 (pid: 24, cores: 1)
+spawned uWSGI worker 8 (pid: 25, cores: 1)
+spawned uWSGI worker 9 (pid: 26, cores: 1)
+spawned uWSGI worker 10 (pid: 27, cores: 1)
+*** Starting uWSGI 2.0.18 (64bit) on [Thu Jan 30 11:09:44 2020] ***
+compiled with version: 8.3.0 on 28 January 2020 18:54:30
+os: Linux-4.19.76-linuxkit #1 SMP Thu Oct 17 19:31:58 UTC 2019
+nodename: 6745c778f55b
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /testimonial-app
+writing pidfile to /tmp/uwsgi-testimonials.pid
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /testimonial-app
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address sock/testimonial.sock fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.8.1 (default, Jan  3 2020, 22:44:00)  [GCC 8.3.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x55cfabc57370
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 802120 bytes (783 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x55cfabc57370 pid: 1 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 1)
+spawned uWSGI worker 1 (pid: 7, cores: 1)
+spawned uWSGI worker 2 (pid: 8, cores: 1)
+spawned uWSGI worker 3 (pid: 9, cores: 1)
+spawned uWSGI worker 4 (pid: 10, cores: 1)
+spawned uWSGI worker 5 (pid: 11, cores: 1)
+spawned uWSGI worker 6 (pid: 12, cores: 1)
+spawned uWSGI worker 7 (pid: 13, cores: 1)
+spawned uWSGI worker 8 (pid: 14, cores: 1)
+spawned uWSGI worker 9 (pid: 15, cores: 1)
+spawned uWSGI worker 10 (pid: 16, cores: 1)
+[pid: 8|app: 0|req: 1/1] 172.21.0.1 () {50 vars in 855 bytes} [Thu Jan 30 11:18:20 2020] GET / => generated 1075 bytes in 516 msecs (HTTP/1.1 200) 6 headers in 319 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 15|app: 0|req: 1/2] 172.21.0.1 () {48 vars in 834 bytes} [Thu Jan 30 11:18:21 2020] GET /favicon.ico => generated 2519 bytes in 279 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+in post 
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./posts/views.py", line 21, in create_testimonials
+    return redirect('testimonials')
+  File "/usr/local/lib/python3.8/site-packages/django/shortcuts.py", line 41, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+  File "/usr/local/lib/python3.8/site-packages/django/shortcuts.py", line 131, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+  File "/usr/local/lib/python3.8/site-packages/django/urls/base.py", line 87, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "/usr/local/lib/python3.8/site-packages/django/urls/resolvers.py", line 676, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'testimonials' not found. 'testimonials' is not a valid view function or pattern name.
+[pid: 7|app: 0|req: 1/3] 172.21.0.1 () {60 vars in 1142 bytes} [Thu Jan 30 11:19:42 2020] POST / => generated 80415 bytes in 370 msecs (HTTP/1.1 500) 5 headers in 156 bytes (1 switches on core 0)
+[pid: 16|app: 0|req: 1/4] 172.21.0.1 () {32 vars in 345 bytes} [Thu Jan 30 11:43:56 2020] GET / => generated 1075 bytes in 217 msecs (HTTP/1.1 200) 6 headers in 319 bytes (1 switches on core 0)
+[pid: 15|app: 0|req: 2/5] 172.21.0.1 () {32 vars in 345 bytes} [Thu Jan 30 11:46:25 2020] GET / => generated 1075 bytes in 44 msecs (HTTP/1.1 200) 6 headers in 319 bytes (1 switches on core 0)
