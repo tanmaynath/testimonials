@@ -22,5 +22,5 @@ from posts import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('posts.urls')),
-    url(r'^$', views.create_testimonials, name='new_post')
+    path('', views.create_testimonials, name='new_post')
 ]

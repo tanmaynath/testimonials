@@ -1,3 +1,4 @@
+python==3.7.4
 asgiref==3.2.3
 Django==3.0
 djangorestframework==3.11.0
