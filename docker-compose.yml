@@ -4,7 +4,7 @@ services:
   app:
     build: .
     container_name: testimonial
-    command: bash -c "uwsgi --ini uwsgi/uwsgi_docker.ini"
+    command: bash -c "python manage.py collectstatic; uwsgi --ini uwsgi/uwsgi_docker.ini"
     volumes:
       - .:/testimonial-app
       - ./static:/testimonial-app/static
@@ -26,3 +26,4 @@ services:
       - "8888:8888"
     links:
       - app
+
