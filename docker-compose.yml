@@ -1,0 +1,29 @@
+version: '3'
+
+services:
+  app:
+    build: .
+    container_name: testimonial
+    command: bash -c "python manage.py collectstatic; uwsgi --ini uwsgi/uwsgi_docker.ini"
+    volumes:
+      - .:/testimonial-app
+      - ./static:/testimonial-app/static
+      - ./logs:/testimonial-app/logs
+      - ./sock:/testimonial-app/sock
+    expose:
+      - 8888
+
+  nginx:
+    restart: always
+    build: ./nginx/
+    command: bash -c "nginx -g 'daemon off;'"
+    volumes:
+      - ./nginx:/etc/nginx/conf.d
+      - ./logs:/testimonial-app/logs
+      - ./static:/testimonial-app/static
+      - ./sock:/testimonial-app/sock
+    ports:
+      - "8888:8888"
+    links:
+      - app
+

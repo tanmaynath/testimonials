@@ -24,3 +24,14 @@ http://127.0.0.1:8000/
 # Admin credentials:
 tanmaynath
 ageofspin
+
+
+
+# For nginx 
+
+# Create a symlink for nginx config in nginx server directory
+ln -s /path/to/testimonial.conf /usr/local/etc/nginx/servers/
+
+Make sure to update paths in the config files:
+-testimonial.conf (nginx)
+-testimonials.ini (uwsgi)
