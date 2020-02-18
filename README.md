@@ -28,7 +28,6 @@ ageofspin
 
 
 # For nginx 
-brew install nginx
 
 # Create a symlink for nginx config in nginx server directory
 ln -s /path/to/testimonial.conf /usr/local/etc/nginx/servers/
